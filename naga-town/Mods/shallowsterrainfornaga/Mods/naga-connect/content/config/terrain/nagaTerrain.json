@@ -1,6 +1,5 @@
 {
-	"naga-town:naga" :
-	{
-		"nativeTerrain": "nagashallows"
+	"naga-town:naga" : {
+		"nativeTerrain" : "nagashallows"
 	}
 }

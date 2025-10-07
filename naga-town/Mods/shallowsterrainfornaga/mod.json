@@ -2,24 +2,25 @@
 	"name" : "Shallows terrain for naga",
 	"description" : "Assets for nagashallows terrain for naga.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",	
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"author" : "Source from Kurek ,modified by Lucki",
 	"contact" : "w.kurek@gmail.com",
 	"version" : "1.2",
-	"changelog" :
-	{
-		"1.0"   : [ "creation of the mod" ],
-		"1.1"   : [ "bugs fixed" ]
+	"changelog" : {
+		"1.0" : [
+			"creation of the mod"
+		],
+		"1.1" : [
+			"bugs fixed"
+		]
 	},
-	"depends" :
-	[
+	"depends" : [
 		"naga-town"
 	],
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.3.0"
 	},
-	"modType" : "Objects",	
+	"modType" : "Objects",
 	"chinese" : {
 		"name" : "浅滩地形",
 		"description" : "浅滩地形资源包。",
@@ -31,45 +32,38 @@
 		"name" : "Mělčina",
 		"description" : "Obsahuje podklady pro terén mělčiny."
 	},
-	"roads":
-	[
-	"config/nagashallowsobjects/roads.json"
+	"roads" : [
+		"config/nagashallowsobjects/roads.json"
 	],
-	"rivers":
-	[
-	"config/nagashallowsterrain/river.json"
+	"rivers" : [
+		"config/nagashallowsterrain/river.json"
 	],
-		
-    "objects" :
-    [ 
-	"config/nagashallowsobjects/deltas.json",
-	"config/nagashallowsobjects/bones.json",
-	"config/nagashallowsobjects/chasms.json",
-	"config/nagashallowsobjects/deadTrees.json",
-	"config/nagashallowsobjects/garrisons.json",
-	"config/nagashallowsobjects/holes.json",
-	"config/nagashallowsobjects/mountains.json",
-	"config/nagashallowsobjects/mines.json",
-	"config/nagashallowsobjects/rocks.json",
-	"config/nagashallowsobjects/ruins.json",
-	"config/nagashallowsobjects/toxicWaste.json",
-	"config/nagashallowsobjects/islands.json",
-	"config/nagashallowsobjects/others.json"
-    ],
-	"battlefields" :
-	[
+
+	"objects" : [
+		"config/nagashallowsobjects/deltas.json",
+		"config/nagashallowsobjects/bones.json",
+		"config/nagashallowsobjects/chasms.json",
+		"config/nagashallowsobjects/deadTrees.json",
+		"config/nagashallowsobjects/garrisons.json",
+		"config/nagashallowsobjects/holes.json",
+		"config/nagashallowsobjects/mountains.json",
+		"config/nagashallowsobjects/mines.json",
+		"config/nagashallowsobjects/rocks.json",
+		"config/nagashallowsobjects/ruins.json",
+		"config/nagashallowsobjects/toxicWaste.json",
+		"config/nagashallowsobjects/islands.json",
+		"config/nagashallowsobjects/others.json"
+	],
+	"battlefields" : [
 		"config/nagashallowsterrain/battlefields.json"
 	],
-	"obstacles" :
-	[
+	"obstacles" : [
 		"config/nagashallowsterrain/obstacles.json"
 	],
-	"terrains" :
-	[
+	"terrains" : [
 		"config/nagashallowsterrain/terrains.json"
 	],
-	"biomes" :
-	[
+	"biomes" : [
 		"config/nagashallowsterrain/nagashallowsbiomes"
-	]	
+	]
 }

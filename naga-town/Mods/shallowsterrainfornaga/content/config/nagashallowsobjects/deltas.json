@@ -1,25 +1,40 @@
 {
-	"core:riverDelta": {
-	"name": "Continental Shelf",
-		"types": {
-			"object": {
-				"templates": {
-					
-					"nagashdelt1": {
-						"animation": "nagashallowsriver/shdelt1.def",
-						"mask": ["VVV","VVV","VVV"]
+	"core:riverDelta" : {
+		"name" : "Continental Shelf",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"nagashdelt1" : {
+						"animation" : "nagashallowsriver/shdelt1.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
-					"nagashdelt2": {
-						"animation": "nagashallowsriver/shdelt2.def",
-						"mask": ["VVV","VVV","VVV"]
+					"nagashdelt2" : {
+						"animation" : "nagashallowsriver/shdelt2.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
-					"nagashdelt3": {
-						"animation": "nagashallowsriver/shdelt3.def",
-						"mask": ["VVV","VVV","VVV"]
+					"nagashdelt3" : {
+						"animation" : "nagashallowsriver/shdelt3.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
-					"nagashdelt4": {
-						"animation": "nagashallowsriver/shdelt4.def",
-						"mask": ["VVV","VVV","VVV"]
+					"nagashdelt4" : {
+						"animation" : "nagashallowsriver/shdelt4.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					}
 				}
 			}

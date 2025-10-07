@@ -1,12 +1,11 @@
 {
-    "nagaunderwatertrench":
-    {
-        "text" : "Underwater Trench",
-        "shortIdentifier": "ut", //must be 2 characters
-        "tilesFilename": "nagashallowsriver/xxacdrvr",
-        "delta": "nagashallowsriver/shddelt"//,
+	"nagaunderwatertrench" : {
+		"text" : "Underwater Trench",
+		"shortIdentifier" : "ut", //must be 2 characters
+		"tilesFilename" : "nagashallowsriver/xxacdrvr",
+		"delta" : "nagashallowsriver/shddelt" //,
 		//"paletteAnimation" : [
-			//{ "start" : 1, "length" : 5 }
+		//{ "start" : 1, "length" : 5 }
 		//]
-    }
+	}
 }

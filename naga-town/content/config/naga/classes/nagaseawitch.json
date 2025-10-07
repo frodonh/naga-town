@@ -1,57 +1,83 @@
 {
 	"nagaseawitch" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "naga/battle/heroes/HeroFemale", "male" : "naga/battle/heroes/HeroFemale" } },
+		"animation" : {
+			"battle" : {
+				"female" : "naga/battle/heroes/HeroFemale",
+				"male" : "naga/battle/heroes/HeroFemale"
+			}
+		},
 		"commander" : "nagaHyppoCommander",
 		"defaultTavern" : 5,
 		"faction" : "naga",
-		"highLevelChance" : { "attack" : 25, "defence" : 25, "knowledge" : 25, "spellpower" : 25 },
-		"lowLevelChance" : { "attack" : 25, "defence" : 25, "knowledge" : 20, "spellpower" : 30 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "naga/map/heroes/mapHeronagaseawitch" } } },
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
+			"knowledge" : 25,
+			"spellpower" : 25
+		},
+		"lowLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
+			"knowledge" : 20,
+			"spellpower" : 30
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "naga/map/heroes/mapHeronagaseawitch"
+				}
+			}
+		},
 		"name" : "娜迦海巫",
-		"primarySkills" : { "attack" : 1, "defence" : 2, "knowledge" : 2, "spellpower" : 1 },
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 2,
+			"knowledge" : 2,
+			"spellpower" : 1
+		},
 		"secondarySkills" : {
-			"pathfinding"  : 5,
-			
-			"archery"      : 4,
-			"logistics"    : 6,
-			"scouting"     : 3,
-			"diplomacy"    : 5,
-			"navigation"   : 4,
-			"leadership"   : 3,
-			"wisdom"       : 4,
-			"mysticism"    : 5,
-			"luck"         : 4,
-			"ballistics"   : 5,
-			"eagleEye"     : 4,
-			"necromancy"   : 0,
-			"estates"      : 2,
-			"fireMagic"    : 0,
-			"airMagic"     : 4,
-			"waterMagic"   : 6,
-			"earthMagic"   : 3,
-			"scholar"      : 2,
-			"tactics"      : 3,
-			"artillery"    : 4,
-			"learning"     : 4,
-			"offence"      : 5,
-			"armorer"      : 5,
+			"pathfinding" : 5,
+
+			"archery" : 4,
+			"logistics" : 6,
+			"scouting" : 3,
+			"diplomacy" : 5,
+			"navigation" : 4,
+			"leadership" : 3,
+			"wisdom" : 4,
+			"mysticism" : 5,
+			"luck" : 4,
+			"ballistics" : 5,
+			"eagleEye" : 4,
+			"necromancy" : 0,
+			"estates" : 2,
+			"fireMagic" : 0,
+			"airMagic" : 4,
+			"waterMagic" : 6,
+			"earthMagic" : 3,
+			"scholar" : 2,
+			"tactics" : 3,
+			"artillery" : 4,
+			"learning" : 4,
+			"offence" : 5,
+			"armorer" : 5,
 			"intelligence" : 6,
-			"sorcery"      : 6,
-			"resistance"   : 4,
-			"firstAid"     : 6
+			"sorcery" : 6,
+			"resistance" : 4,
+			"firstAid" : 6
 		},
 		"tavern" : {
-			"castle"     : 2,
-			"rampart"    : 4,
-			"tower"      : 5,
-			"inferno"    : 3,
+			"castle" : 2,
+			"rampart" : 4,
+			"tower" : 5,
+			"inferno" : 3,
 			"necropolis" : 2,
-			"dungeon"    : 4,
+			"dungeon" : 4,
 			"stronghold" : 4,
-			"fortress"   : 5,
-			"conflux"    : 5,
-			"naga"      : 7
+			"fortress" : 5,
+			"conflux" : 5,
+			"naga" : 7
 		}
 	}
 }

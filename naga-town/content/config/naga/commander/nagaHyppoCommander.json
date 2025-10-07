@@ -1,8 +1,6 @@
 {
-	"nagaHyppoCommander":
-	{
-		"name" :
-		{
+	"nagaHyppoCommander" : {
+		"name" : {
 			"plural" : "艾萨拉之影",
 			"singular" : "艾萨拉之影"
 		},
@@ -12,35 +10,30 @@
 		"level" : 0,
 		"special" : true,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
 		"cost" : {
 			"gold" : 1500
 		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "naga/battle/commander/nagaHyppoCommander.def",
 			"map" : "naga/map/creatures/AVWHyppoCommander.def",
 			"iconSmall" : "naga/iconsSmall/creatures/HyppoCommander.bmp",
 			"iconLarge" : "naga/iconsBig/creatures/HyppoCommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.5,
-				"idle" : 10.00,
+				"idle" : 10.0,
 				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "Picee.def",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -48,46 +41,52 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 9,
 		"hitPoints" : 40,
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "naga/nagacmdattack.wav",
-			"defend": "naga/nagacmddefend.wav",
-			"killed": "naga/nagacmddeath.wav",
-			"move": "HYDRMOVE.wav",
-			"wince": "naga/nagacmdwince.wav",
-			"shoot": "CAVAATTK.wav"
+		"sound" : {
+			"attack" : "naga/nagacmdattack.wav",
+			"defend" : "naga/nagacmddefend.wav",
+			"killed" : "naga/nagacmddeath.wav",
+			"move" : "HYDRMOVE.wav",
+			"wince" : "naga/nagacmdwince.wav",
+			"shoot" : "CAVAATTK.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 200
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.lightningBolt",
 				"val" : 3

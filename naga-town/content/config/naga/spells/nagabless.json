@@ -1,50 +1,48 @@
-{	
-"nagabless" : 
-	{
-		"type": "ability",
-		"name": "赐福神力",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+{
+	"nagabless" : {
+		"type" : "ability",
+		"name" : "赐福神力",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 0,
-		"power": 1,
-		"targetType": "NO_TARGET",
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-		},
-		"animation":{
-			"affect":["naga/spells/nagabless/nagablessd.def"]
+		"level" : 0,
+		"power" : 1,
+		"targetType" : "NO_TARGET",
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"naga/spells/nagabless/nagablessd.def"
+			]
 		},
 		"flags" : {
-			"positive": true
+			"positive" : true
 		},
-		"targetCondition" : {
+		"targetCondition" : {},
+		"sounds" : {
+			"cast" : "DISGUISE"
 		},
-		"sounds": {
-			"cast": "DISGUISE"
-		},
-		"graphics":
-		{
-		    "iconEffect": "naga/spells/nagabless/nagablesse.bmp"
+		"graphics" : {
+			"iconEffect" : "naga/spells/nagabless/nagablesse.bmp"
 		},
 		"levels" : {
-			"base":{
-				"cost": 1, 
-				"description": "",
-				"power": 1,
+			"base" : {
+				"cost" : 1,
+				"description" : "",
+				"power" : 1,
 				"range" : "0",
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"timed":{
-						"type":"core:timed",
-						"cumulative":true,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"cumulative" : true,
 						"ignoreImmunity" : true,
-						"bonus" :{
+						"bonus" : {
 							"primaryskill" : {
 								"val" : 1,
 								"type" : "PRIMARY_SKILL",
@@ -60,23 +58,20 @@
 								"valueType" : "ADDITIVE_VALUE"
 							},
 							"stackhealth" : {
-						        "val" : 4,
-						        "type" : "STACK_HEALTH",
-					    	    "valueType" : "PERCENT_TO_ALL",
-					    	    "duration" : "PERMANENT"
-					        }
+								"val" : 4,
+								"type" : "STACK_HEALTH",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "PERMANENT"
+							}
 						}
 					}
 				}
 			},
-			"none":
-			{	
-			},
-			"basic":
-			{	 
-				"battleEffects":{
-					"timed":{
-						"bonus" :{
+			"none" : {},
+			"basic" : {
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
 							"primaryskill" : {
 								"val" : 2
 							},
@@ -84,17 +79,16 @@
 								"val" : 3
 							},
 							"stackhealth" : {
-						        "val" : 6
-					        }
+								"val" : 6
+							}
 						}
 					}
 				}
 			},
-			"advanced":
-			{	 
-				"battleEffects":{
-					"timed":{
-						"bonus" :{
+			"advanced" : {
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
 							"primaryskill" : {
 								"val" : 3
 							},
@@ -102,17 +96,16 @@
 								"val" : 4
 							},
 							"stackhealth" : {
-						        "val" : 8
-					        }
+								"val" : 8
+							}
 						}
 					}
 				}
 			},
-			"expert":
-			{
-				"battleEffects":{
-					"timed":{
-						"bonus" :{
+			"expert" : {
+				"battleEffects" : {
+					"timed" : {
+						"bonus" : {
 							"primaryskill" : {
 								"val" : 2
 							},
@@ -120,8 +113,8 @@
 								"val" : 2
 							},
 							"stackhealth" : {
-						        "val" : 5
-					        }
+								"val" : 5
+							}
 						}
 					}
 				}

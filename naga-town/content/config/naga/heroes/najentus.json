@@ -1,31 +1,38 @@
 {
-	"naganajentus" : 
-	{
+	"naganajentus" : {
 		"class" : "nagalord",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "纳因图斯督军",
 			"biography" : "纳因图斯是娜迦族最精通战斗技巧的战士，因此被授予督军的职务。他近战远程样样精通，对魔法也有一定的防御能力。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "根据英雄等级，所带领军队的原始攻击力每级+1%，宝物增加的英雄攻击力每级额外+1%。",
 				"tooltip" : "Primary Skill Bonus: 攻击加成",
 				"name" : "攻击加成"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/Najentus/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/Najentus/spec-big.bmp",
 			"large" : "naga/heroes/Najentus/najentus-big.bmp",
 			"small" : "naga/heroes/Najentus/najentus-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9}
+		"army" : [
+			{
+				"creature" : "nagalv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			}
 		],
 		"skills" : [
 			{
@@ -39,15 +46,14 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"attack":
-				{
-					"type": "PRIMARY_SKILL",
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
 					"val" : 1,
 					"updater" : "TIMES_HERO_LEVEL",
-					"valueType": "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
-		}		
+		}
 	}
 }

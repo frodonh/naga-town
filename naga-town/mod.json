@@ -5,23 +5,23 @@
 	"contact" : "东方秘境1群:1049463408",
 	"version" : "1.0.2",
 	"modType" : "Town",
-	"changelog" :
-	{
-		"0.7"   : [ "Initial release"  ]
+	"changelog" : {
+		"0.7" : [
+			"Initial release"
+		]
 	},
-	"compatibility":
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"language": "chinese",
+	"language" : "chinese",
 	"chinese" : {
 		"name" : "娜迦",
 		"description" : "新城镇娜迦族"
-		
 	},
-	"factions" : [ "config/naga/town.json" ],
-	"creatures" :
-	[
+	"factions" : [
+		"config/naga/town.json"
+	],
+	"creatures" : [
 		"config/naga/creatures/nagalv1.json",
 		"config/naga/creatures/nagalv2.json",
 		"config/naga/creatures/nagalv3.json",
@@ -50,54 +50,49 @@
 		"config/naga/creatures/nagaHarpoon.json",
 		"config/naga/commander/nagaHyppoCommander.json"
 	],
-    "artifacts":
-    [              
-		"config/naga/artifacts/nagaHarpoon.json"        
-    ],	
-	"heroClasses" :
-	[
+	"artifacts" : [
+		"config/naga/artifacts/nagaHarpoon.json"
+	],
+	"heroClasses" : [
 		"config/naga/classes/nagaseawitch.json",
-		
+
 		"config/naga/classes/nagalord.json"
 	],
-	
-	"spells" :
-	[
+
+	"spells" : [
 		"config/naga/spells/moat.json",
 		"config/naga/spells/nagacurse.json",
-		
+
 		"config/naga/spells/nagalv4smspell.json",
 		"config/naga/spells/nagacatapult.json",
 		"config/naga/spells/nagabarb.json",
 		"config/naga/spells/nagabless.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/naga/heroes/nazjan.json",
 		"config/naga/heroes/xiz.json",
 		"config/naga/heroes/sarevess.json",
-        "config/naga/heroes/megafin.json",
-        "config/naga/heroes/najentus.json",
-        "config/naga/heroes/morogrim.json",
-        "config/naga/heroes/sirakess.json",
-        "config/naga/heroes/karathress.json",
-        "config/naga/heroes/nazjar.json",
-        "config/naga/heroes/athissa.json",
-        "config/naga/heroes/zithreen.json",
-        "config/naga/heroes/sasszine.json",
-        "config/naga/heroes/parjesh.json",
-        "config/naga/heroes/sashjtar.json",
-        "config/naga/heroes/vashj.json",
-        "config/naga/heroes/zalgira.json",
-        "config/naga/heroes/slark.json",
-        "config/naga/heroes/murkeye.json",
-        "config/naga/heroes/delacour.json",
-        "config/naga/heroes/threek.json"
+		"config/naga/heroes/megafin.json",
+		"config/naga/heroes/najentus.json",
+		"config/naga/heroes/morogrim.json",
+		"config/naga/heroes/sirakess.json",
+		"config/naga/heroes/karathress.json",
+		"config/naga/heroes/nazjar.json",
+		"config/naga/heroes/athissa.json",
+		"config/naga/heroes/zithreen.json",
+		"config/naga/heroes/sasszine.json",
+		"config/naga/heroes/parjesh.json",
+		"config/naga/heroes/sashjtar.json",
+		"config/naga/heroes/vashj.json",
+		"config/naga/heroes/zalgira.json",
+		"config/naga/heroes/slark.json",
+		"config/naga/heroes/murkeye.json",
+		"config/naga/heroes/delacour.json",
+		"config/naga/heroes/threek.json"
 	],
-	
-	"objects" : 
-	[ 
+
+	"objects" : [
 		"config/naga/dwellings.json"
 	]
 }

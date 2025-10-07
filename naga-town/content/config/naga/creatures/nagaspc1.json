@@ -1,151 +1,193 @@
 {
-	"nagaspc1":
-	{
-		"name" :
-		{
+	"nagaspc1" : {
+		"name" : {
 			"plural" : "深海亡灵",
 			"singular" : "深海亡灵"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"nagalv6th"
 		],
 		"doubleWide" : true,
 		"special" : true,
-		"faction" : "naga",		
-		"advMapAmount" :
-		{
-			 "min" : 1,
-			 "max" : 3
+		"faction" : "naga",
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 3
 		},
 		"level" : 7,
 		"attack" : 20,
 		"defense" : 20,
-		"damage" :
-		{
-			 "min" : 30,
-			 "max" : 40
+		"damage" : {
+			"min" : 30,
+			"max" : 40
 		},
 		"growth" : 2,
 		"hitPoints" : 350,
 		"speed" : 15,
 		"fightValue" : 8100,
 		"aiValue" : 9800,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 8000,
-			"mercury": 3
+			"mercury" : 3
 		},
-		"graphics" :
-		{	
+		"graphics" : {
 			"animation" : "naga/battle/creatures/nagaspc1.def",
 			"map" : "naga/map/creatures/nagaspc1_map.def",
 			"iconSmall" : "naga/iconsSmall/creatures/nagaspc1_small.bmp",
 			"iconLarge" : "naga/iconsBig/creatures/nagaspc1_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "naga/nagaspc1attack.wav",
-			"defend": "WRTHDFND.wav",
-			"killed": "naga/nagaspc1death.wav",
-			"move": "WRTHMOVE.wav",
-			"wince": "WRTHWNCE.wav"
-                 },
-		"abilities" :
-		{
-			"waterImmunity":
-			{
-				"type":"NEGATIVE_EFFECTS_IMMUNITY",
-                "subtype": "water"
+		"sound" : {
+			"attack" : "naga/nagaspc1attack.wav",
+			"defend" : "WRTHDFND.wav",
+			"killed" : "naga/nagaspc1death.wav",
+			"move" : "WRTHMOVE.wav",
+			"wince" : "WRTHWNCE.wav"
+		},
+		"abilities" : {
+			"waterImmunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "water"
 			},
-			"enemyDefenceReduction":
-		    {
-    			"type": "ENEMY_DEFENCE_REDUCTION",
-	    		"val": 50
+			"enemyDefenceReduction" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
 			},
-			"king2" :
-			{
+			"king2" : {
 				"type" : "KING",
 				"val" : 2
 			},
-			"UNDEAD":
-			{
-				"type" : "UNDEAD" 					
+			"UNDEAD" : {
+				"type" : "UNDEAD"
 			},
-			"attacksAllAdjacent":
-			{
-				"type":"ATTACKS_ALL_ADJACENT"
-            },
-			"fly":
-			{	
+			"attacksAllAdjacent" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"fly" : {
 				"type" : "FLYING"
 			},
-			
-			"drainsMana" :
-			{
+
+			"drainsMana" : {
 				"type" : "MANA_DRAIN",
 				"val" : 8
 			},
-			"regeneration" : { 
-				"type" : "HP_REGENERATION", 
-				"val" : 999999 
+			"regeneration" : {
+				"type" : "HP_REGENERATION",
+				"val" : 999999
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					0,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					0,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
 			}
 		]
 	}

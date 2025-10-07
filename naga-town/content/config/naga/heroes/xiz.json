@@ -1,45 +1,52 @@
 {
-	"nagaxiz" : 
-	{
+	"nagaxiz" : {
 		"class" : "nagalord",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "克希兹领主",
 			"biography" : "克希兹领主是娜迦族最骁勇善战的毒鳍龙酋长，他最引以为傲的是他的诅咒神力，他所率领的毒鳍龙能继承他的诅咒神力从而获得更强大的力量。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "将毒鳍龙升级为咒鳍龙。",
 				"tooltip" : "Creature Bonus: 生物升级：咒鳍龙",
 				"name" : "咒鳍龙"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/Xiz/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/Xiz/spec-big.bmp",
 			"large" : "naga/heroes/Xiz/Xiz-big.bmp",
 			"small" : "naga/heroes/Xiz/Xiz-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv3", "min" : 3, "max" : 5},
-			{ "creature" : "nagalv3", "min" : 3, "max" : 5}
+		"army" : [
+			{
+				"creature" : "nagalv3",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "nagalv3",
+				"min" : 3,
+				"max" : 5
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "artillery", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
-			    "nagalv3th_upgrade" : 
-                { 
-                     "addInfo" : "creature.nagalv3th",
-				     "type" : "SPECIAL_UPGRADE",
-                     "subtype" : "creature.nagalv3up" 
-                }
+				"nagalv3th_upgrade" : {
+					"addInfo" : "creature.nagalv3th",
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.nagalv3up"
+				}
 			}
-		}		
+		}
 	}
 }

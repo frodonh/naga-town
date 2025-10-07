@@ -1,114 +1,150 @@
 {
-	"core:rock": {
-	"name": "Bones",
-		"types": {
-			"nagashallowsbones01": {
-				"name": "Shallows Bones",
-				"templates": {
-				
-					"shAVLskul0": {
-						"animation": "nagashallowsbones/AVLskul0",
-						"mask": ["VB"],
-						"allowedTerrains": [
+	"core:rock" : {
+		"name" : "Bones",
+		"types" : {
+			"nagashallowsbones01" : {
+				"name" : "Shallows Bones",
+				"templates" : {
+					"shAVLskul0" : {
+						"animation" : "nagashallowsbones/AVLskul0",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					
-					"AVXSKDS111": {
-						"animation": "nagashallowsbones/AVXSKDS111",
-						"mask": ["VV","BB"],
-						"allowedTerrains": [
+
+					"AVXSKDS111" : {
+						"animation" : "nagashallowsbones/AVXSKDS111",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"AVXSKDS222": {
-						"animation": "nagashallowsbones/AVXSKDS222",
-						"mask": ["BBB","VVV"],
-						"allowedTerrains": [
-							"nagashallows"
-						]
-					},				
-					"Carcass1x": {
-						"animation": "nagashallowsbones/Carcass1x",
-						"mask": ["VB"],
-						"allowedTerrains": [
+					"AVXSKDS222" : {
+						"animation" : "nagashallowsbones/AVXSKDS222",
+						"mask" : [
+							"BBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"Carcass2x": {
-						"animation": "nagashallowsbones/Carcass2x",
-						"mask": ["VB"],
-						"allowedTerrains": [
+					"Carcass1x" : {
+						"animation" : "nagashallowsbones/Carcass1x",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"Carcass3x": {
-						"animation": "nagashallowsbones/Carcass3x",
-						"mask": ["VB"],
-						"allowedTerrains": [
+					"Carcass2x" : {
+						"animation" : "nagashallowsbones/Carcass2x",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"Carcass4x": {
-						"animation": "nagashallowsbones/Carcass4x",
-						"mask": ["VB"],
-						"allowedTerrains": [
+					"Carcass3x" : {
+						"animation" : "nagashallowsbones/Carcass3x",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DinoSkl1x": {
-						"animation": "nagashallowsbones/DinoSkl1x",
-						"mask": ["BB"],
-						"allowedTerrains": [
+					"Carcass4x" : {
+						"animation" : "nagashallowsbones/Carcass4x",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DinoSkl2x": {
-						"animation": "nagashallowsbones/DinoSkl2x",
-						"mask": ["VVV","BBB"],
-						"allowedTerrains": [
+					"DinoSkl1x" : {
+						"animation" : "nagashallowsbones/DinoSkl1x",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DinoSkl3x": {
-						"animation": "nagashallowsbones/DinoSkl3x",
-						"mask": ["BBV","VBB"],
-						"allowedTerrains": [
+					"DinoSkl2x" : {
+						"animation" : "nagashallowsbones/DinoSkl2x",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DragSkl5x": {
-						"animation": "nagashallowsbones/DragSkl5x",
-						"mask": ["VVV","BBB"],
-						"allowedTerrains": [
+					"DinoSkl3x" : {
+						"animation" : "nagashallowsbones/DinoSkl3x",
+						"mask" : [
+							"BBV",
+							"VBB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DragSkl8x": {
-						"animation": "nagashallowsbones/DragSkl8x",
-						"mask": ["BBB","BVV"],
-						"allowedTerrains": [
+					"DragSkl5x" : {
+						"animation" : "nagashallowsbones/DragSkl5x",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"DragSkl7x": {
-						"animation": "nagashallowsbones/DragSkl7x",
-						"mask": ["VVV","BBB"],
-						"allowedTerrains": [
+					"DragSkl8x" : {
+						"animation" : "nagashallowsbones/DragSkl8x",
+						"mask" : [
+							"BBB",
+							"BVV"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"SSkel1x": {
-						"animation": "nagashallowsbones/SSkel1x",
-						"mask": ["BB"],
-						"allowedTerrains": [
+					"DragSkl7x" : {
+						"animation" : "nagashallowsbones/DragSkl7x",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					},
-					"SSkel2x": {
-						"animation": "nagashallowsbones/SSkel2x",
-						"mask": ["BB"],
-						"allowedTerrains": [
+					"SSkel1x" : {
+						"animation" : "nagashallowsbones/SSkel1x",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"nagashallows"
+						]
+					},
+					"SSkel2x" : {
+						"animation" : "nagashallowsbones/SSkel2x",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
 							"nagashallows"
 						]
 					}

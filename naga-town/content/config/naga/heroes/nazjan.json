@@ -1,34 +1,40 @@
 {
-	"naganazjan" : 
-	{
+	"naganazjan" : {
 		"class" : "nagalord",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "纳兹亚皇帝",
 			"biography" : "纳兹亚是裂鞭部族的领袖，同时也是最具有“商业头脑”的娜迦，喜欢自称皇帝，他拥有无与伦比的财富。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "为王国每天额外提供350个金币。",
 				"tooltip" : "Resource Bonus: +350个金币",
 				"name" : "+350个金币"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/Nazjan/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/Nazjan/spec-big.bmp",
 			"large" : "naga/heroes/Nazjan/nazjan-big.bmp",
 			"small" : "naga/heroes/Nazjan/nazjan-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9}
+		"army" : [
+			{
+				"creature" : "nagalv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "estates"
@@ -46,6 +52,6 @@
 					"val" : 350
 				}
 			}
-		}		
+		}
 	}
 }

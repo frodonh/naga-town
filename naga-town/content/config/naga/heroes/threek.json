@@ -1,49 +1,55 @@
 {
-	"nagathreek" : 
-	{
+	"nagathreek" : {
 		"class" : "nagaseawitch",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "斯雷克",
 			"biography" : "远古螣蛇一脉是如今翼蛇、飞蛇的祖先。翼蛇、飞蛇本是灵智未开的野兽种族，被娜迦族驯化、收服。斯雷克曾隶属于娜迦族的一只精锐翼蛇部队，在某次与敌军交战中意外坠入深谷，其血液中微弱的螣蛇血脉激活了深谷中远古螣蛇的遗骸，从而获得了来自远古的剧毒神力，并开启了灵智。斯雷克的血液可以使翼蛇返祖成为螣蛇。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "将翼蛇升级为螣蛇",
 				"tooltip" : "Creature Bonus:生物升级：螣蛇",
 				"name" : "螣蛇"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/Threek/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/Threek/spec-big.bmp",
 			"large" : "naga/heroes/Threek/Threek-big.bmp",
 			"small" : "naga/heroes/Threek/Threek-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 }
+		"army" : [
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "wisdom", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			}
 		],
-		"spellbook" :
-		[
-			"removeObstacle"		
-        ],
+		"spellbook" : [
+			"removeObstacle"
+		],
 		"specialty" : {
 			"bonuses" : {
-			    "nagalv2th_upgrade" : 
-                { 
-                     "addInfo" : "creature.nagalv2th",
-				     "type" : "SPECIAL_UPGRADE",
-                     "subtype" : "creature.nagalv2up" 
-                }
+				"nagalv2th_upgrade" : {
+					"addInfo" : "creature.nagalv2th",
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.nagalv2up"
+				}
 			}
-		}		
+		}
 	}
 }

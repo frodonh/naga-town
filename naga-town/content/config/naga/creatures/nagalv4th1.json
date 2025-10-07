@@ -1,24 +1,20 @@
 {
-	"nagalv4th1":
-	{
-		"name" :
-		{
+	"nagalv4th1" : {
+		"name" : {
 			"plural" : "娜迦猎魔者",
 			"singular" : "娜迦猎魔者"
 		},
-		"faction" : "naga",		
-		"advMapAmount" :
-		{
-			 "min" : 9,
-			 "max" : 14
+		"faction" : "naga",
+		"advMapAmount" : {
+			"min" : 9,
+			"max" : 14
 		},
 		"level" : 4,
 		"attack" : 11,
 		"defense" : 11,
-		"damage" :
-		{
-			 "min" : 7,
-			 "max" : 10
+		"damage" : {
+			"min" : 7,
+			"max" : 10
 		},
 		"growth" : 4,
 		"hitPoints" : 30,
@@ -26,29 +22,24 @@
 		"shots" : 24,
 		"fightValue" : 479,
 		"aiValue" : 645,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 380
 		},
-		"graphics" :
-		{	
+		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv4th1.def",
 			"map" : "naga/map/creatures/nagalv4th1_map.def",
 			"iconSmall" : "naga/iconsSmall/creatures/nagalv4th1_small.bmp",
 			"iconLarge" : "naga/iconsBig/creatures/nagalv4th1_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "naga/battle/creatures/projectile/naga_arrow.def",
 				"attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 37,
 					"upperY" : -60,
 					"middleX" : 47,
@@ -56,94 +47,181 @@
 					"lowerX" : 29,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-		},	
-		"sound" :
-		{
-			"attack": "naga/nagalv4attack.wav",
-			"defend": "naga/nagalv4defend.wav",
-			"killed": "naga/nagalv4death.wav",
-			"move": "naga/nagalv4move.wav",
-			"wince": "naga/nagalv4wince.wav",
-			"shoot": "naga/nagalv4th1shoot.wav"
-        },
-		"abilities":
-		{
-			"freeshooting" :
-			{		
+		},
+		"sound" : {
+			"attack" : "naga/nagalv4attack.wav",
+			"defend" : "naga/nagalv4defend.wav",
+			"killed" : "naga/nagalv4death.wav",
+			"move" : "naga/nagalv4move.wav",
+			"wince" : "naga/nagalv4wince.wav",
+			"shoot" : "naga/nagalv4th1shoot.wav"
+		},
+		"abilities" : {
+			"freeshooting" : {
 				"type" : "FREE_SHOOTING"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "spellSchool.water"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SHOTS"
 				},
-				"values" : [ 0, 0, 0, 5, 5, 5, 10, 10, 10, 10]
+				"values" : [
+					0,
+					0,
+					0,
+					5,
+					5,
+					5,
+					10,
+					10,
+					10,
+					10
+				]
 			}
-		]	
+		]
 	}
 }

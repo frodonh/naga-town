@@ -1,144 +1,209 @@
 {
-	"nagalv2":
-	{
-		"name" :
-		{
+	"nagalv2" : {
+		"name" : {
 			"plural" : "飞蛇",
 			"singular" : "飞蛇"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"nagalv2up"
 		],
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"doubleWide" : false,
-        	"faction" : "naga",
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 30
+		"faction" : "naga",
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
 		},
 		"level" : 2,
 		"attack" : 6,
 		"defense" : 3,
-		"damage" :
-		{
-			 "min" : 2,
-			 "max" : 4
+		"damage" : {
+			"min" : 2,
+			"max" : 4
 		},
 		"growth" : 8,
 		"hitPoints" : 14,
 		"speed" : 7,
 		"fightValue" : 160,
 		"aiValue" : 170,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 135
 		},
 		"horde" : 4,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv2.def",
 			"map" : "naga/map/creatures/nagalv2_map.def",
 			"iconSmall" : "naga/iconsSmall/creatures/nagalv2_small.bmp",
 			"iconLarge" : "naga/iconsBig/creatures/nagalv2_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "naga/nagalv2attack.wav",
-			"defend": "naga/nagalv2defend.wav",
-			"killed": "naga/nagalv2death.wav",
-			"move": "RGRFMOVE.wav",
-			"wince": "naga/nagalv2wince.wav"
-                },
-		"abilities" :
-		{
-			"flying":
-			{
-				"type":"FLYING"
-            },
-			"strikeAndReturn" : 
-			{
+		"sound" : {
+			"attack" : "naga/nagalv2attack.wav",
+			"defend" : "naga/nagalv2defend.wav",
+			"killed" : "naga/nagalv2death.wav",
+			"move" : "RGRFMOVE.wav",
+			"wince" : "naga/nagalv2wince.wav"
+		},
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING"
+			},
+			"strikeAndReturn" : {
 				"type" : "RETURN_AFTER_STRIKE"
 			},
-			"poison" :
-			{
+			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 10
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "spellSchool.water"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "RECEPTIVE"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			}
 		]
 	}

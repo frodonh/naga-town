@@ -4,7 +4,7 @@
 	"object.core.lake.name" : "洼地",
 	"object.core.riverDelta.name" : "大陆架",
 	"object.core.rock.name" : "礁石",
-    "mapObject.shallowsterrainfornaga.crater.nagashallowsbones01.name" : "海底火山",
+	"mapObject.shallowsterrainfornaga.crater.nagashallowsbones01.name" : "海底火山",
 	"mapObject.shallowsterrainfornaga.deadVegetation.object.name" : "珊瑚礁",
 	"mapObject.shallowsterrainfornaga.lake.nagashallowsdepression.name" : "洼池",
 	"mapObject.shallowsterrainfornaga.rock.nagashallowsRocksHills01.name" : "礁石",

@@ -1,51 +1,58 @@
 {
-	"nagakarathress" : 
-	{
+	"nagakarathress" : {
 		"class" : "nagalord",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "卡拉瑟雷斯",
 			"biography" : "深水领主卡拉瑟雷斯拥有英勇神力，他是艾萨拉女王最忠诚勇猛的臣子。他所率领的娜迦死士是娜迦守卫中最悍不畏死的勇士，总是冲锋在战场的第一线。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "将娜迦守卫升级为娜迦死士。",
 				"tooltip" : "Creature Bonus: 升级生物：娜迦死士",
 				"name" : "娜迦死士"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/Karathress/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/Karathress/spec-big.bmp",
 			"large" : "naga/heroes/Karathress/karathress-big.bmp",
 			"small" : "naga/heroes/Karathress/karathress-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
-			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "nagalv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "nagalv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "offence", "level": "advanced" }
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "advanced"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
-				"nagalv5th2_upgrade" : 
-                { 
-                    "addInfo" : "creature.nagalv5th2",
-				    "type" : "SPECIAL_UPGRADE",
-                    "subtype" : "creature.nagalv5up" 
-                },
-				"nagalv5th1_upgrade" : 
-                { 
-                    "addInfo" : "creature.nagalv5th2",
-				    "type" : "SPECIAL_UPGRADE",
-                    "subtype" : "creature.nagalv5th1" 
-                }
+				"nagalv5th2_upgrade" : {
+					"addInfo" : "creature.nagalv5th2",
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.nagalv5up"
+				},
+				"nagalv5th1_upgrade" : {
+					"addInfo" : "creature.nagalv5th2",
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.nagalv5th1"
+				}
 			}
-		}		
+		}
 	}
 }

@@ -1,153 +1,229 @@
 {
-	"nagalv6":
-	{
-		"name" :
-		{
+	"nagalv6" : {
+		"name" : {
 			"plural" : "海巨人",
 			"singular" : "海巨人"
 		},
-		"upgrades":
-		[
+		"upgrades" : [
 			"nagalv6up"
 		],
 		"doubleWide" : true,
-		"faction" : "naga",		
-		"advMapAmount" :
-		{
-			 "min" : 5,
-			 "max" : 12
+		"faction" : "naga",
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
 		},
 		"level" : 6,
 		"attack" : 13,
 		"defense" : 15,
-		"damage" :
-		{
-			 "min" : 15,
-			 "max" : 20
+		"damage" : {
+			"min" : 15,
+			"max" : 20
 		},
 		"growth" : 2,
 		"hitPoints" : 100,
 		"speed" : 6,
 		"fightValue" : 1750,
 		"aiValue" : 2050,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1000
 		},
-		"graphics" :
-		{	
+		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv6.def",
 			"map" : "naga/map/creatures/nagalv6_map.def",
 			"iconSmall" : "naga/iconsSmall/creatures/nagalv6_small.bmp",
 			"iconLarge" : "naga/iconsBig/creatures/nagalv6_big.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.28,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "naga/nagalv6attack.wav",
-			"defend": "naga/nagalv6defend.wav",
-			"killed": "naga/nagalv6death.wav",
-			"move": "CRYSMOVE.wav",
-			"wince": "naga/nagalv6wince.wav"
-                 },
-		"abilities" :
-		{
-			"waterImmunity":
-			{
-				"type":"NEGATIVE_EFFECTS_IMMUNITY",
-                "subtype": "water"
+		"sound" : {
+			"attack" : "naga/nagalv6attack.wav",
+			"defend" : "naga/nagalv6defend.wav",
+			"killed" : "naga/nagalv6death.wav",
+			"move" : "CRYSMOVE.wav",
+			"wince" : "naga/nagalv6wince.wav"
+		},
+		"abilities" : {
+			"waterImmunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "water"
 			},
 			"noRetaliation" : {
 				"type" : "NO_RETALIATION"
 			},
-			"block" :
-			{
+			"block" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeAll",
 				"val" : 10
 			},
-			"threeHeads" : 
-			{
+			"threeHeads" : {
 				"type" : "THREE_HEADED_ATTACK"
 			}
 		},
-		"stackExperience" : 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 					"subtype" : "spellSchool.water"
 				},
-				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 1, 1, 1, 2, 3]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"subtype" : "damageTypeAll"
 				},
-				"values" : [ 10, 10, 10, 15, 15, 15, 15, 20, 20, 20]
+				"values" : [
+					10,
+					10,
+					10,
+					15,
+					15,
+					15,
+					15,
+					20,
+					20,
+					20
+				]
 			}
 		]
 	}

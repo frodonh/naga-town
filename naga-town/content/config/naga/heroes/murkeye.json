@@ -1,39 +1,51 @@
 {
-	"nagamurkeye" : 
-	{
+	"nagamurkeye" : {
 		"class" : "nagalord",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "老瞎眼",
 			"biography" : "早年的老瞎眼是鱼人族最厉害的盗墓贼，任何地形他都能来去自如，但是在一次盗墓途中意外失去了双眼。他现在是鱼人族最顶尖的斥候，即使失去了视力，他也能准确找到最适合行军的道路。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "在后勤术上每级得到5%的额外奖励。",
 				"tooltip" : "Secondary Skill Bonus: 后勤术",
 				"name" : "后勤术"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "naga/heroes/MurkEye/spec-small.bmp",
 			"specialtyLarge" : "naga/heroes/MurkEye/spec-big.bmp",
 			"large" : "naga/heroes/MurkEye/murkeye-big.bmp",
 			"small" : "naga/heroes/MurkEye/murkeye-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
-			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
-			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "nagalv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "nagalv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "nagalv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills":
-		[
-			{ "skill" : "logistics", "level": "basic" },
-			{ "skill" : "navigation", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "navigation",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "logistics"
-		}				
+		}
 	}
 }

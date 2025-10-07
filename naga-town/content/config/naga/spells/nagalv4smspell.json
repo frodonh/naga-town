@@ -1,56 +1,59 @@
 {
 	"nagalv4smspell" : {
-		"type": "ability",
+		"type" : "ability",
 		"targetType" : "NO_TARGET",
-		"name": "召唤水人",
+		"name" : "召唤水人",
 		"school" : {
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 2,
-		"power": 50,
-		"defaultGainChance": 0,
-		"gainChance": {},
-		"animation":{
-			"cast":["SP02_"]
-	    },
-	    "sounds": {
-		    "cast": "SUMNELM.wav"
-	    },
-		"graphics":
-		{
-			"iconEffect": "naga/spells/nagalv4smspell4.bmp"
+		"level" : 2,
+		"power" : 50,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"cast" : [
+				"SP02_"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM.wav"
+		},
+		"graphics" : {
+			"iconEffect" : "naga/spells/nagalv4smspell4.bmp"
 		},
 		"levels" : {
-			"base": {
+			"base" : {
 				"description" : "",
 				"power" : 100,
 				"cost" : 0,
 				"range" : "X",
-				"targetModifier":{"smart":true},
-			    "battleEffects":{
-				    "summon":{
-					    "exclusive":false,
-					    "id":"nagalv4sm",
-					    "permanent":false,
-					    "type":"core:summon"
-				    }
-			    }				
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "nagalv4sm",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
 			},
-			"none" :{
+			"none" : {
 				"cost" : 25,
-			    "power" : 1
+				"power" : 1
 			},
-			"basic" :{},
-			"advanced" :{},
-			"expert" :{
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {
 				"power" : 2
 			}
 		},
 		"flags" : {
-			"indifferent": true
+			"indifferent" : true
 		}
 	}
 }
