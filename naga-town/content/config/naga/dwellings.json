@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"nagalv1" : {
+				"name" : "渔猎草棚",
+				"creatures" : [[ "nagalv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw1.def",
+						"mask" : [ "VV","VA" ]
+					}
+				}
+			},
+			"nagalv2" : {
+				"name" : "珊瑚飞礁",
+				"creatures" : [[ "nagalv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw2.def",
+						"mask" : ["VV","VA"]
+					}
+				}
+			},
+			"nagalv3" : {
+				"name" : "潜虬井",
+				"creatures" : [[ "nagalv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "naga/map/nagadw3.def",
+						"mask" : [ "VV", "VA"]
+					}
+				}
+			},
+			"nagalv4" : {
+				"name" : "潮汐神庙",
+				"creatures" : [[ "nagalv4" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw4.def",
+						"mask" : [ "VVV","VBA" ]
+					}
+				}
+			},
+			"nagalv5" : {
+				"name" : "娜迦圣坛",
+				"creatures" : [[ "nagalv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw5.def",
+						"mask" : [ "VVV","VBA" ]
+					}
+				}
+			},
+			"nagalv6" : {
+				"name" : "潮海地洞",
+				"creatures" : [[ "nagalv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw6.def",
+						"mask" : [ "VV","BA" ]
+					}
+				}
+			},
+			"nagalv7" : {
+				"name" : "浓雾海渊",
+				"creatures" : [[ "nagalv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "naga/map/nagadw7.def",
+						"mask" : [ "VV", "BA"]
+					}
+				}
+			}
+		}		
+	}
+}

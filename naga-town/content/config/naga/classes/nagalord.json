@@ -1,0 +1,57 @@
+{
+	"nagalord" : {
+		"affinity" : "might",
+		"animation" : { "battle" : { "female" : "naga/battle/heroes/Heromale", "male" : "naga/battle/heroes/Heromale" } },
+		"commander" : "nagaHyppoCommander",
+		"defaultTavern" : 4,
+		"faction" : "naga",
+		"highLevelChance" : { "attack" :30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
+		"lowLevelChance" : { "attack" : 45, "defence" : 45, "knowledge" : 5, "spellpower" : 5 },
+		"mapObject" : { "templates" : { "default" : { "animation" : "naga/map/heroes/mapHeroInagalord" } } },
+		"name" : "娜迦领主",
+		"primarySkills" : { "attack" : 3, "defence" : 1, "knowledge" : 1, "spellpower" : 1 },
+		"secondarySkills" : {
+			"pathfinding"  : 5,
+			
+			"archery"      : 7,
+			"logistics"    : 7,
+			"scouting"     : 5,
+			"diplomacy"    : 3,
+			"navigation"   : 4,
+			"leadership"   : 4,
+			"wisdom"       : 2,
+			"mysticism"    : 3,
+			"luck"         : 3,
+			"ballistics"   : 6,
+			"eagleEye"     : 3,
+			"necromancy"   : 0,
+			"estates"      : 4,
+			"fireMagic"    : 0,
+			"airMagic"     : 2,
+			"waterMagic"   : 3,
+			"earthMagic"   : 2,
+			"scholar"      : 4,
+			"tactics"      : 7,
+			"artillery"    : 6,
+			"learning"     : 3,
+			"offence"      : 6,
+			"armorer"      : 7,
+			"intelligence" : 2,
+			"sorcery"      : 3,
+			"resistance"   : 7,
+			"firstAid"     : 4
+		},
+		"tavern" : {
+			"castle"     : 3,
+			"rampart"    : 5,
+			"tower"      : 5,
+			"inferno"    : 3,
+			"necropolis" : 2,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 5,
+			"conflux"    : 4,
+			"naga"      : 7 
+		}
+	}
+}

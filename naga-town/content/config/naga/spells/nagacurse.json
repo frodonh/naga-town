@@ -1,0 +1,61 @@
+{
+	"nagacurse" : 
+	{
+		"type": "ability",
+		"name": "诅咒神力",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "NO_TARGET",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["C14SPA0"]
+		},
+		"flags" : {
+			"indifferent": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "cC14SPA0"
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"battleEffects":{
+					"destruction":{
+						"type":"core:damage",
+						"killByCount": true
+					}
+				},
+				"range" : "0",
+				"description" : "Placeholder description for Naga Curse",
+				"power": 1,
+				"cost" : 0
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

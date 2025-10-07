@@ -1,0 +1,42 @@
+{
+	"core:garrisonHorizontal": {
+
+		"types": {
+			"object": {
+				//"rmg": {
+				//	"zoneLimit": 2,
+				//	"value": 1000,
+				//	"rarity": 80
+				//},
+				"templates": {	
+					"nagaxFALF0232": {
+						"animation": "nagashallowsgarrisons/xFALF0232",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VBAB"],
+						"allowedTerrains": [ "nagashallows"]
+					}
+				}
+			}
+		}
+	},
+
+	"core:garrisonVertical": {
+		"types": {
+			"object": {
+				//"rmg": {
+				//	"zoneLimit": 1,
+				//	"value": 1000,
+				//	"rarity": 80
+				//},
+				"templates": {
+					"nagaxFALF0233": {
+						"animation": "nagashallowsgarrisons/xFALF0233",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB", "VA", "VB"],
+						"allowedTerrains": [ "nagashallows" ]
+					}
+				}
+			}
+		}
+	}
+}

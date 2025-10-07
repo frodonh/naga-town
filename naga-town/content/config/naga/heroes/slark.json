@@ -1,0 +1,52 @@
+{
+	"nagaheroslark" : 
+	{
+		"class" : "nagalord",
+		"female" : false,
+        "texts" :
+		{
+			"name" : "斯拉克",
+			"biography" : "斯拉克是劣鱼人战士的领袖，他所率领的劣鱼人战士是劣鱼人中最危险的猎食者。他们高超的刺杀技巧使得敌人无法捕捉到他们的身影，并在危急时刻给予敌人最致命的一击。",
+			"specialty" :
+			{
+				"description" : "将劣鱼人猎手升级为劣鱼人战士",
+				"tooltip" : "Creature Bonus:生物升级：劣鱼人战士",
+				"name" : "劣鱼人战士"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/slark/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/slark/spec-big.bmp",
+			"large" : "naga/heroes/slark/slark-big.bmp",
+			"small" : "naga/heroes/slark/slark-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+			    "nagalv1th_upgrade" : 
+                { 
+                    "addInfo" : "creature.nagalv1th",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv1up" 
+                }
+			}
+		}		
+	}
+}

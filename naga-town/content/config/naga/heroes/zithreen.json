@@ -1,0 +1,66 @@
+{
+	"nagazithreen" : 
+	{
+
+		"class" : "nagaseawitch",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "吉斯林",
+			"biography" : "吉斯林是娜迦中最不安分的海巫，早年的吉斯林总是在四处游历学习其他种族的魔法。得益于她孜孜不倦的学习游历，她总是能接纳各种各样的魔力为其所用，并对现有的魔法进行改良。",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus:魔法兼并",
+				"description" : "法术持续时间+1，每支部队能从敌方英雄处吸取1点魔法，每升10级多吸取1点魔法。",
+				"name" : "魔法兼并"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Zithreen/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Zithreen/spec-big.bmp",
+			"large" : "naga/heroes/Zithreen/zithreen-big.bmp",
+			"small" : "naga/heroes/Zithreen/zithreen-small.bmp"
+		},
+        "spellbook" :
+		[
+			"scuttleBoat"
+		],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"spellenhance":
+				{
+					"type" : "SPELL_DURATION",
+					"val" :1   
+				},
+				"drainsMana" :
+				{
+					"type" : "MANA_DRAIN",	
+					"val" : 1,
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 2,
+						"stepSize" : 1
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"nagaHyppoCommander":
+	{
+		"name" :
+		{
+			"plural" : "艾萨拉之影",
+			"singular" : "艾萨拉之影"
+		},
+		"faction" : "naga",
+		"doubleWide" : false,
+		"aiValue" : 156,
+		"level" : 0,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 12,
+			 "min" : 6
+		},
+		"cost" : {
+			"gold" : 1500
+		},
+		"defense" : 5,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "naga/battle/commander/nagaHyppoCommander.def",
+			"map" : "naga/map/creatures/AVWHyppoCommander.def",
+			"iconSmall" : "naga/iconsSmall/creatures/HyppoCommander.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/HyppoCommander.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.5,
+				"idle" : 10.00,
+				"attack" : 1.0
+			},
+			"missile" :
+			{
+				"projectile" : "Picee.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 40,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "naga/nagacmdattack.wav",
+			"defend": "naga/nagacmddefend.wav",
+			"killed": "naga/nagacmddeath.wav",
+			"move": "HYDRMOVE.wav",
+			"wince": "naga/nagacmdwince.wav",
+			"shoot": "CAVAATTK.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 200
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 3
+			}
+		}
+	}
+}

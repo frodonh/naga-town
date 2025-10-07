@@ -1,0 +1,46 @@
+{
+	"nagadelacour" : 
+	{
+		"class" : "nagalord",
+		"female" : false,
+		"special" : true,
+		"texts" :
+		{
+			"name" : "德拉库尔",
+			"biography" : "德拉库尔是龙龟一族的酋长，龙龟一族本是居住在浓雾海渊的友善种族，直到被艾萨拉女王奴役作为娜迦族的战争机器。艾萨拉女王激发了德拉库尔体内的始祖力量令其失去自我意识，德拉库尔的始祖力量可以激发龙龟一族的狂暴形态。",
+			"specialty" :
+			{
+				"description" : "将娜迦龙龟升级为狂暴龙龟。",
+				"tooltip" : "Creature Bonus: 生物升级：狂暴龙龟",
+				"name" : "狂暴龙龟"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Delacour/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Delacour/spec-big.bmp",
+			"large" : "naga/heroes/Delacour/delacour-big.bmp",
+			"small" : "naga/heroes/Delacour/delacour-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "advanced" }
+		],
+		"specialty" : {
+			"bonuses" : {
+			    "nagalv7th_upgrade" : 
+                { 
+                     "addInfo" : "creature.nagalv7th",
+				     "type" : "SPECIAL_UPGRADE",
+                     "subtype" : "creature.nagalv7up" 
+                }
+			}
+		}			
+	}
+}

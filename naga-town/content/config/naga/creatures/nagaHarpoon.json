@@ -1,0 +1,136 @@
+{
+	"nagaHarpoon":
+	{
+		"name" :
+		{
+			"plural" : "娜迦鱼叉炮",
+			"singular" : "娜迦鱼叉炮"
+		},
+		"faction" : "naga",
+		"level": 0,
+		"aiValue" : 3000,
+		"special" : true,
+		"attack" : 15,
+         "cost": 
+        {
+            "gold": 3000
+        },
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 3200,
+		"graphics" :
+		{
+			"animation" : "naga/battle/creatures/nagadapao.def",
+			"iconSmall" : "naga/iconsSmall/creatures/nagaHarpoon.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/nagaHarpoon.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "naga/battle/creatures/projectile/Spear.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -63,
+					"middleX" : 62,
+					"middleY" : -63,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"sound" : {
+			"killed" : "BALLKILL.wav",
+			"shoot" : "BALLSHOT.wav",
+			"wince" : "BALLWNCE.wav"
+		},		
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 250,
+        "shots" : 36,
+		"speed" : 0,
+		"abilities" :
+		{
+        	"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		    "paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 50
+			},
+			"freeshooting" :{"type" : "FREE_SHOOTING"},
+			"blocksRetaliation" :{"type" : "BLOCKS_RETALIATION"},
+			"blockedRangedRetaliation" :
+			{
+				"type" : "BLOCKS_RANGED_RETALIATION"
+			},
+			"noRetaliation" : 
+			{
+                "val" : 0,
+                "type" : "NO_RETALIATION"
+            },
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

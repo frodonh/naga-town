@@ -1,0 +1,58 @@
+{
+	"nagaathissa" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "潮汐主母阿西萨",
+			"biography" : "阿西萨具有异常的天赋，冥冥之中对潮汐之力有种特殊的感应。后来在修习魔法的过程中，阿西萨终于发掘了自己对潮汐的掌控之力，因此被授予“潮汐主母之名。",
+			"specialty" : 
+			{
+				"description" : "潮汐之力使得所有敌方单位速度-1。",
+				"tooltip" : "Creature Bonus: 潮汐之力",
+				"name" : "潮汐之力"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Athissa/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Athissa/spec-big.bmp",
+			"large" : "naga/heroes/Athissa/athissa-big.bmp",
+			"small" : "naga/heroes/Athissa/athissa-small.bmp"
+		},
+		"spellbook" :
+		[
+			"haste"		
+        ],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],	
+		"specialty" : {
+			"bonuses" : {
+				"slowspeed":
+				{
+					"type": "STACKS_SPEED",
+					"val" : -1,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ]
+				}
+			}
+		}
+	}
+}

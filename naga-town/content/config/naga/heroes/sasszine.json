@@ -1,0 +1,48 @@
+{
+	"nagasasszine" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "萨丝琳",
+			"biography" : "萨丝琳是娜迦魔法行会的会长，她是学识最渊博的娜迦海巫。渊博的学识使得萨丝琳的具有惊人的魔力储备，哪怕是打仗行军时也总是喜欢研究魔法。",
+			"specialty" :
+			{
+				"description" : "在神秘术上每级得到15%的额外奖励。",
+				"tooltip" : "Secondary Skill Bonus: 神秘术",
+				"name" : "神秘术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Sasszine/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Sasszine/spec-big.bmp",
+			"large" : "naga/heroes/Sasszine/sasszine-big.bmp",
+			"small" : "naga/heroes/Sasszine/sasszine-small.bmp"
+		},
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"secondary" : "mysticism"
+		}
+	}
+}

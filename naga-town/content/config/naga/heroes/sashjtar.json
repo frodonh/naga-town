@@ -1,0 +1,50 @@
+{
+	"nagasashjtar" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "萨吉塔",
+			"biography" : "萨吉塔是萨丝琳的姐姐，不同于喜欢钻研魔法的萨丝琳，萨吉塔一心一意想征服大海，成为伟大的航海家。",
+			"specialty" : 
+			{
+				"description" : "在航海术上每级得到5%的额外奖励。",
+				"tooltip" : "Secondary Skill Bonus: 航海术",
+				"name" : "航海术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Sashjtar/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Sashjtar/spec-big.bmp",
+			"large" : "naga/heroes/Sashjtar/sashjtar-big.bmp",
+			"small" : "naga/heroes/Sashjtar/sashjtar-small.bmp"
+		},
+		"spellbook" :
+		[
+			"summonBoat"
+		],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "navigation"
+		}	
+	}
+}
+

@@ -1,0 +1,79 @@
+{
+	"nagacatapult" : 
+	{
+		"type": "ability",
+		"name": "Naga Catapult",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "LOCATION",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+		},
+		"flags" : {
+			"nonMagical" : true,
+			"indifferent": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"description" : "",
+				"power" : 1,
+				"cost" : 0,
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"catapult":{
+						"type":"core:catapult",
+						"targetsToAttack": 2,
+						"chanceToHitKeep" : 90,
+						"chanceToHitGate" : 30,
+						"chanceToHitTower" : 50,
+						"chanceToHitWall" : 30,
+						"chanceToNormalHit" : 1,
+						"chanceToCrit" : 100
+					}
+				},
+				"range" : "0"
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 "battleEffects" : {
+					"catapult" : {
+						"targetsToAttack": 3
+					}
+				}
+			},
+			"advanced":
+			{	 "battleEffects" : {
+					"catapult" : {
+						"targetsToAttack": 4
+					}
+				}
+			},
+			"expert":
+			{"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack": 5
+					}
+				}
+			}
+		}
+	}
+}

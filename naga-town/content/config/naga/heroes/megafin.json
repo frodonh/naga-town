@@ -1,0 +1,58 @@
+{
+	"nagamegafin" :
+	{
+		"class" : "nagalord",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "老鲨嘴",
+			"biography" : "老鲨嘴是鱼人与海巨人的混血，在海洋竞技场中长大。他在海洋竞技场中打败了无数勇猛的斗士，从最低等的奴隶一路成长为竞技场之王。他在经历了无数的生死厮杀之后，领悟了海斗之力。",
+			"specialty" :
+			{
+				"description" : "海斗之力使得老鲨嘴在海战中攻击力和防御力各+5。",
+				"tooltip" : "海斗之力",
+				"name" : "海斗之力"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Megafin/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Megafin/spec-big.bmp",
+			"large" : "naga/heroes/Megafin/megafin-big.bmp",
+			"small" : "naga/heroes/Megafin/megafin-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "navigation", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"attack":
+                {
+                    "type": "PRIMARY_SKILL",
+                    "subtype" : "primarySkill.attack",
+                    "val" : 5,
+                    "valueType": "BASE_NUMBER",
+                    "limiters" : [ { "terrain" :  "water", "type" : "CREATURE_TERRAIN_LIMITER" } ]
+                },
+				"defence":
+                {
+                    "type": "PRIMARY_SKILL",
+                    "subtype" : "primarySkill.defence",
+                    "val" : 5,
+                    "valueType": "BASE_NUMBER",
+                    "limiters" : [ { "terrain" :  "water", "type" : "CREATURE_TERRAIN_LIMITER" } ]
+                }
+			}
+		}
+	}
+}
+

@@ -1,0 +1,86 @@
+{
+	"nagashallowsreefMountains": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "mountain"
+		},
+		"templates": ["nagaxAVLMTVO1", "nagaxAVLMTVO2", "nagaxAVLMTVO3", "nagaxAVLMTVO4", "nagaxAVLMTVO5", "nagaxAVLMTVO6", "nagaxvcan01", "nagaxvcan02", "nagaxvcan03", "nagaxvcan04", "nagaxvcan05", "nagaxvcan06", "nagaxvcan07", "nagaxvcan08", "nagaxvcan09", "nagaxvcan10", "nagaxvcan11", "nagaxvcan12", "nagaxvcan13", "nagaxvcan14", "nagaxvcan15", "nagaxvcan16", "nagaxvcan17", "nagaxvcan18", "nagaxvcan19", "nagaxVolc1", "nagaxVIsl01", "nagaxVIsl02", "nagaxVIsl03", "nagaxVIsl04", "nagaxVIsl05", "nagaxVIsl06", "nagaxVIsl07", "nagaxVIsl08", "nagaxVIsl09", "nagaxVIsl10", "nagaxVIsl11", "nagaxVIsl12", "nagaxVIsl13", "nagaxVIsl14", "nagaxVIsl15", "nagaxVIsl16", "nagaxVIsl17", "nagaxVIsl18" ]
+	},
+	"nagashallowsIslands": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "mountain"
+		},
+		"templates": ["nagaxAltGrMt1", "nagaxAltGrMt2", "nagaxAltGrMt3", "nagaxAltGrMt4", "nagaxAltGrMt5", "nagaxAltGrMt6", "nagaxMNTSWP01", "nagaxMNTSWP02","nagaxMNTSWP03","nagaxMNTSWP04","nagaxMNTSWP05","nagaxMNTSWP06"]
+	},
+	"nagashallowsrockyMountains": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "mountain"
+		},
+		"templates": ["nagaxFDTD0001", "nagaxFDTD0002","nagaxFDTD0003","nagaxFDTD0004","nagaxFDTD0005","nagaxFDTD0006","nagaxFDTD0007","nagaxFDTD0008", "nagaxFDTM0001"]
+	},
+	"nagashallowsbones": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "rock"
+		},
+		"templates": [ "AVXSKDS222", "shAVLskul0", "Carcass1x", "Carcass2x","Carcass3x","Carcass4x"]
+	},
+	"nagashallowsseamonsterbones": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "rock"
+		},
+		"templates": [ "AVXSKDS111", "DinoSkl1x", "DinoSkl2x", "DinoSkl3x", "DragSkl5x", "DragSkl7x", "DragSkl8x", "SSkel1x", "SSkel2x"]
+	},
+	"nagashallowschasms": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "crater"
+		},
+		"templates": ["nagaxavlc10l0", "nagaxavlc11l0", "nagaxavlc12l0", "nagaxavlc13l0", "nagaxavlc14l0", "nagaxavlct3l0", "nagaxavlct4l0", "nagaxavlct5l0", "nagaxavlct6l0", "nagaxavlct7l0" , "nagaxavlct8l0" , "nagaxavlct9l0", "nagaxAVLctrl0"]
+	},
+	"nagashallowscorals": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "tree"
+		},
+		"templates": ["nagaxFALG0003", "nagaxFALG0004", "nagaxFALG0005", "nagaxFALG0006", "nagaxFALG0007", "nagaxash03", "nagaxash04", "nagaxash05","nagaxash06","nagaxash07", "nagaxFALG0001", "nagaxFALG0002", "nagaxFALG0009", "nagaxFSWG0014", "nagaxFSWG0015", "nagaxFSWG0016", "nagaxFSWG0017", "nagaxFSWG0018", "nagaxFSWG0019" , "nagaxFSWG0020", "nagaxFSWG0021", "nagaxFSWG0022"]
+	},
+	"nagashallowscraters": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "crater"
+		},
+		"templates": ["AVLctrd0", "nagaxFVOD0120", "nagaxFVOD0119"]
+	},
+	"nagashallowsReefs": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "rock"
+		},
+		"templates": [
+			"nagaxFDTD0009", "nagaxFDTD0010", "nagaxFDTD0011", "nagaxFDTD0012", "nagaxFDTD0013", "nagaxFDTD0014", "nagaxFDTD0015", "nagaxFDTD0016", "nagaxFDTD0017", "nagaxFDTD0018", "nagaxFDTD0019", "nagaxFDTD0020", "nagaxFDTD0021", "nagaxFDTD0022", "nagaxFDTD0023", "nagaxFDTD0024", "nagaxFDTD0025", "nagaxFDTD0026", "nagaxFDTD0027", "nagaxFDTD0028", "nagaxFDTD0029"
+		]
+	},
+		
+	"nagashallowsdepressions": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "lake"
+		},
+		"templates": [
+			"nagaxFrgCra01", "nagaxFrgCra02", "nagaxFrgCra03", "nagaxFrgCra04", "nagaxFrgCra05", "nagaxFrgCra06", "nagaxFrgCra07", "nagaxFrgCra08", "nagaxFrgCra09", "nagaxFrgCra10", "nagaxFrgCra11", "nagaxFrgCra12", "nagaxFrgCra13", "nagaxFrgCra14", "nagaxFrgCra15", "nagaxFrgCra16", "nagaxFrgCra17", "nagaxFrgCra18", "nagaxFrgCra19", "nagaxFrgCra20", "nagaxFrgCra21", "nagaxFrgCra22", "nagaxFrgCra23", "nagaxFrgCra24", "nagaxFrgCra25", "nagaxFrgCra26", "nagaxFrgCra27", "nagaxFrgCra28", "nagaxFrgCra29"
+		]
+	},
+	"nagashallowssunkenRuins": {
+		"biome": {
+			"terrain": "nagashallows",
+			"objectType": "structure"
+		},
+		"templates": [
+			"nagaxHsRuin01", "nagaxHsRuin02", "nagaxHsRuin03", "nagaxHsRuin04", "nagaxHsRuin05", "nagaxHsRuin06", "nagaxHsRuin07"
+		]
+	}
+}

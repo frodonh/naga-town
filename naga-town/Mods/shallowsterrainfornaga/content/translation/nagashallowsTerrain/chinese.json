@@ -1,0 +1,18 @@
+{
+	"object.core.crater.name" : "水下裂隙",
+	"object.core.deadVegetation.name" : "珊瑚",
+	"object.core.lake.name" : "洼地",
+	"object.core.riverDelta.name" : "大陆架",
+	"object.core.rock.name" : "礁石",
+    "mapObject.shallowsterrainfornaga.crater.nagashallowsbones01.name" : "海底火山",
+	"mapObject.shallowsterrainfornaga.deadVegetation.object.name" : "珊瑚礁",
+	"mapObject.shallowsterrainfornaga.lake.nagashallowsdepression.name" : "洼池",
+	"mapObject.shallowsterrainfornaga.rock.nagashallowsRocksHills01.name" : "礁石",
+	"mapObject.shallowsterrainfornaga.rock.nagashallowsbones01.name" : "尸骨",
+	"object.shallowsterrainfornaga.mountain.name" : "岛礁",
+	"object.shallowsterrainfornaga.riverDelta.name" : "大陆架",
+	"object.shallowsterrainfornaga.nagashallowsruins.name" : "娜迦遗迹",
+	"river.shallowsterrainfornaga.nagaunderwatertrench.name" : "海沟",
+	"road.shallowsterrainfornaga.nagaraftRoad.name" : "栈道",
+	"terrain.shallowsterrainfornaga.nagashallows.name" : "滩涂"
+}

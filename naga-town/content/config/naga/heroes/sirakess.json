@@ -1,0 +1,51 @@
+{
+	"nagasirakess" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "希拉柯丝女士",
+			"biography" : "希拉柯丝是被疾风之力所眷顾的娜迦，他是娜迦中最年轻的海巫。在修行魔法的过程中，她觉醒了疾风领域。",
+			"specialty" : 
+			{
+				"description" : "英雄率领的所有生物防御+1、速度+1，防御力数值直接加到英雄防御力上。",
+				"tooltip" : "Speed Bonus: 疾风领域",
+				"name" : "疾风领域"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Sirakess/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Sirakess/spec-big.bmp",
+			"large" : "naga/heroes/Sirakess/sirakess-big.bmp",
+			"small" : "naga/heroes/Sirakess/sirakess-small.bmp"
+		},
+        "spellbook": [ "haste" ],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "advanced" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				},
+				"defence":
+				{
+					"type": "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"valueType": "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}

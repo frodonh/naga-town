@@ -1,0 +1,10 @@
+{
+"nagaraftRoad":
+    {
+        "shortIdentifier" : "rr",
+        "tilesFilename" : "nagashallowsroad/xgravrd",
+        "moveCost" : 60,
+		"text" : "Draft Road"
+    } 
+ 
+}

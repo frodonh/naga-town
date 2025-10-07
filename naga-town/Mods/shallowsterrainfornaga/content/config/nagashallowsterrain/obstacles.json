@@ -1,0 +1,76 @@
+{
+	"nagashallowsAbsoluteVertical":
+	{
+		"allowedTerrains" : ["nagashallows"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 241,
+		"height" :118,
+		"blockedTiles" :  [43,59,60,61,75,76,77, 92, 93, 109, 126, 127, 141, 142, 143],
+		"animation" : "nagashallowsterrain/nagashallowsAbsV",
+		"absolute" : true
+	},
+	"nagashallowsAbsoluteHorizontal":
+	{
+		"allowedTerrains" : ["nagashallows"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 103,
+		"height" :212,
+		"blockedTiles" :  [60,61,62,63,64,73,74,75,76,88,89,90],
+		"animation" : "nagashallowsterrain/nagashallowsAbsH",
+		"absolute" : true
+	},
+
+
+	"nagashallowsCraters":
+	{
+		"allowedTerrains" : ["nagashallows"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1, 2, -15, -14, -16],
+		"animation" : "nagashallowsterrain/nagashallowsOb3.def",
+		"absolute" : false
+	},
+	"nagashallowsothers":
+	{
+		"allowedTerrains" : ["nagashallows"],   //to change later
+		"specialBattlefields" : [],
+		"width" :5,
+		"height" :3,
+		"blockedTiles" :  [0, 1, 2, -15, -16, -17],
+		"animation" : "nagashallowsterrain/nagashallowsOb4.def",
+		"absolute" : false
+	},
+	"nagashallowstrees":
+	{
+		"allowedTerrains" : ["nagashallows"],
+		"specialBattlefields" : [],
+		"width" : 3,
+		"height" :3,
+		"blockedTiles" :  [1, -15, -16],
+		"animation" : "nagashallowsterrain/nagashallowsOb5.def",
+		"absolute" : false
+	},
+	
+	"nagashallowsBarrels":
+	{
+		"allowedTerrains" : ["nagashallows"],
+		"specialBattlefields" : [],
+		"width" : 3,
+		"height" :3,
+		"blockedTiles" :  [0, 1, -15, -16],
+		"animation" : "nagashallowsterrain/nagashallowsOb6.def",
+		"absolute" : false
+	},
+	
+	"nagashallowsRocks":
+	{
+		"allowedTerrains" : ["nagashallows"],
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1, 2, -14, -15],
+		"animation" : "nagashallowsterrain/nagashallowsOb7.def",
+		"absolute" : false
+	}
+}

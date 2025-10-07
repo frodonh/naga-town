@@ -1,0 +1,178 @@
+{
+	"nagalv7":
+	{
+		"name" :
+		{
+			"plural" : "娜迦海龟",
+			"singular" : "娜迦海龟"
+		},
+		"upgrades":
+		[
+			"nagalv7up"
+		],
+		"faction" : "naga",		
+		"advMapAmount" :
+		{
+			 "min" : 4,
+			 "max" : 10
+		},
+		"level" : 7,
+		"attack" : 15,
+		"defense" : 21,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 200,
+		"doubleWide" : true,
+		"shots" : 6,
+		
+		"speed" : 9,
+		"fightValue" : 3839,
+		"aiValue" : 4978,
+		"cost" :
+		{
+			"gold" : 2500,
+			"mercury": 1
+		},
+		"graphics" :
+		{
+			"animation" : "naga/battle/creatures/SeaTurtle.def",
+			"map" : "naga/map/creatures/mapSeaTurtle.def",
+			"iconSmall" : "naga/iconsSmall/creatures/SeaTurtle.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/SeaTurtle.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PCYCLBX.DEF",
+				"attackClimaxFrame" : 5,
+				"offset" :
+				{
+					"upperX" : 56,
+					"upperY" : -56,
+					"middleX" : 57,
+					"middleY" : -53,
+					"lowerX" : 38,
+					"lowerY" : -44
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRYSATTK.wav",
+			"defend": "HYDRDFND.wav",
+			"killed": "HYDRKILL.wav",
+			"move": "HYDRMOVE.wav",
+			"shoot": "CYCLSHOT.wav",
+			"wince": "HYDRWNCE.wav"
+                },
+		"abilities" :
+		{
+			"basicSlayer" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"canShootWalls" :
+			{
+				"type" : "CATAPULT",
+				"subtype" : "spell.nagacatapult",
+				"val" : 1
+			},
+			"canShootWallsTimes" :
+			{
+				"type" : "CATAPULT_EXTRA_SHOTS",
+				"subtype" : "spell.nagacatapult",
+				"valueType" : "BASE_NUMBER",
+				"val" : 0
+			},
+			"waterImmunity":
+			{
+				"type":"NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype": "water"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 5, 5, 5, 5]
+			}
+		]
+	}
+}

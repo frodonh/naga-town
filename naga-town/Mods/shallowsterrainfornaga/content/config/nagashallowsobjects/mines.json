@@ -1,0 +1,83 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"nagaxAVMcrvo0as" : {
+						"animation" : "nagashallowsmines/xAVMCRVO0",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					
+					"nagaxAVMgovo0as" : {
+						"animation" : "nagashallowsmines/xAVMgovo0",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			
+			"sawmill" : {
+				"templates" : {
+					
+					"nagaxAVMswhl1as" : {
+						"animation" : "nagashallowsmines/xAVMsawl0", 
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			
+			"alchemistLab" : {
+				"templates" : {
+					"nagaxAVMalch0as" : {
+						"animation" : "nagashallowsmines/xAVMalch0",
+						"mask" : ["VVV", "VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			
+			"orePit" : {
+				"templates" : {
+					"nagaxAVMORlv0as" : {
+						"animation" : "nagashallowsmines/xAVMORlv0",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			
+			"sulfurDune" : {
+				"templates" : {
+					"nagaxAVMsulf0as" : {
+						"animation" : "nagashallowsmines/xAVMsulf0",
+						"mask" : ["VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			},
+			
+			"gemPond" : {
+				"templates" : {
+					"nagaxAVMgelv0as" : {
+						"animation" : "nagashallowsmines/xAVMgelv0",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["nagashallows"]
+					}
+				}
+			}
+		}
+	}
+}	

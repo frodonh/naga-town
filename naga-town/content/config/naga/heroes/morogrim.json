@@ -1,0 +1,45 @@
+{
+	"nagamorogrim" : 
+	{
+		"class" : "nagalord",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "莫洛格里·踏潮者",
+			"biography" : "莫洛格里·踏潮者是海巨人一族的酋长，同时也是海巨人中最强大的踏潮者。他能训练潮海巨人获得更加强大的力量。",
+			"specialty" :
+			{
+				"description" : "可以将潮海巨人升级为海巨人踏潮者。",
+				"tooltip" : "Creature Bonus: 生物升级：海巨人踏潮者",
+				"name" : "海巨人踏潮者"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Morogrim/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Morogrim/spec-big.bmp",
+			"large" : "naga/heroes/Morogrim/morogrim-big.bmp",
+			"small" : "naga/heroes/Morogrim/morogrim-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "advanced" }
+		],
+		"specialty" : {
+			"bonuses" : {
+			    "nagalv6th_upgrade" : 
+                { 
+                    "addInfo" : "creature.nagalv6th",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv6up" 
+                }
+			}
+		}			
+	}
+}

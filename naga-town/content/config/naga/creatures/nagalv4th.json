@@ -1,0 +1,162 @@
+{
+	"nagalv4th":
+	{
+		"name" :
+		{
+			"plural" : "娜迦唤潮者",
+			"singular" : "娜迦唤潮者"
+		},
+		"faction" : "naga",		
+		"advMapAmount" :
+		{
+			 "min" : 9,
+			 "max" : 14
+		},
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 9
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"speed" : 8,
+		"shots" : 24,
+		"fightValue" : 479,
+		"aiValue" : 645,
+		"cost" :
+		{
+			"gold" : 380
+		},
+		"description" : "{技能说明}：\n{召唤水人}娜迦唤潮者可召唤水人，召唤数量等于娜迦唤潮者数量。",
+		"graphics" :
+		{	
+			"animation" : "naga/battle/creatures/nagalv4th.def",
+			"map" : "naga/map/creatures/nagalv4th_map.def",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv4th_small.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv4th_big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "naga/battle/creatures/projectile/SHOT198.def",
+				"attackClimaxFrame" : 6,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "naga/nagalv4attack.wav",
+			"defend": "naga/nagalv4defend.wav",
+			"killed": "naga/nagalv4death.wav",
+			"move": "naga/nagalv4move.wav",
+			"wince": "naga/nagalv4wince.wav",
+			"shoot": "naga/nagalv4shoot.wav"
+                },
+		"abilities":
+		{
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.nagalv4smspell",
+				"val" : 0
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SHOTS"
+				},
+				"values" : [ 0, 0, 0, 5, 5, 5, 10, 10, 10, 10]
+			}
+		]	
+	}
+}

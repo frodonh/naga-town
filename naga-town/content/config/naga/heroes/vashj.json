@@ -1,0 +1,63 @@
+{
+	"nagavashj" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "瓦斯琪女士",
+			"biography" : "瓦斯琪女士掌握海洋神力，是娜迦海巫中最强的元素魔法使用者，她所率领的娜迦海妖部队也传承了她的力量。",
+			"specialty" :
+			{
+				"description" : "将娜迦海妖升级为娜迦唤潮者。",
+				"tooltip" : "Creature Bonus:生物升级：娜迦唤潮者",
+				"name" : "娜迦唤潮者"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Vashj/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Vashj/spec-big.bmp",
+			"large" : "naga/heroes/Vashj/Vashj-big.bmp",
+			"small" : "naga/heroes/Vashj/Vashj-small.bmp"
+		},
+		"spellbook" :
+		[
+			"mirth"
+		],
+		"army" :
+		[
+			{
+				"creature" : "nagalv4",
+				"max" : 2,
+				"min" : 1
+			},
+			{
+				"creature" : "nagalv4",
+				"max" : 2,
+				"min" : 1
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+			    "nagalv4th_upgrade" : 
+                { 
+                    "addInfo" : "creature.nagalv4th",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv4up" 
+                },
+				"nagalv4th_upgrade2" : 
+                { 
+                    "addInfo" : "creature.nagalv4th",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv4th1" 
+                }
+			}
+		}			
+	}
+}

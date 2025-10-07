@@ -1,0 +1,30 @@
+{
+	"nagashallowsruins" : {
+		"name" : "Sunken building",
+		"handler":"static",
+		"types" : {
+			"sunkenbuilding" : {
+				//"rmg": {
+				//	"zoneLimit": 3,
+				//	"value": 30,
+				//	"rarity": 30
+				//},
+				"templates" : {				
+					"nagaxHsRuin01" : { "animation" : "nagashallowsruins/xHsRuin01", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin02" : { "animation" : "nagashallowsruins/xHsRuin02", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin03" : { "animation" : "nagashallowsruins/xHsRuin03", "mask" : [ "VVV", "VBB" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin04" : { "animation" : "nagashallowsruins/xHsRuin04", "mask" : [ "VVVV", "VBBV", "VVBB" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin05" : { "animation" : "nagashallowsruins/xHsRuin05", "mask" : [ "VVVV", "VVBB", "VBBV" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin06" : { "animation" : "nagashallowsruins/xHsRuin06", "mask" : [ "VVVV", "VBBV", "VVBB" ], "allowedTerrains": [ "nagashallows" ] },
+									
+					"nagaxHsRuin07" : { "animation" : "nagashallowsruins/xHsRuin07", "mask" : [ "VVVV", "VVBB", "VBBV" ], "allowedTerrains": [ "nagashallows" ] }
+				}
+			}
+		}
+	}
+}

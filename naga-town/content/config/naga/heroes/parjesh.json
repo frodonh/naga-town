@@ -1,0 +1,52 @@
+{
+	"nagaheroparjesh" : 
+	{
+		"class" : "nagalord",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "帕杰什",
+			"biography" : "帕杰什是艾萨拉女王的皇家卫队长，他所率领的娜迦皇家卫队是直属于艾萨拉女王管辖的军队，只有娜迦守卫中最精锐的战士才会被提拔为皇家卫队成员，也就是娜迦皇卫。",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: 升级生物：娜迦皇卫",
+				"description" : "可以将娜迦守卫升级为娜迦皇卫。",
+				"name" : "娜迦皇卫"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Parjesh/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Parjesh/spec-big.bmp",
+			"large" : "naga/heroes/Parjesh/parjesh-big.bmp",
+			"small" : "naga/heroes/Parjesh/parjesh-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "leadership", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"nagalv5th1_upgrade" : 
+                { 
+                    "addInfo" : "creature.nagalv5th1",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv5up" 
+                },
+				"nagalv5th2_upgrade" : 
+                { 
+                    "addInfo" : "creature.nagalv5th1",
+				    "type" : "SPECIAL_UPGRADE",
+                    "subtype" : "creature.nagalv5th2" 
+                }
+            }
+		}			
+	}
+}

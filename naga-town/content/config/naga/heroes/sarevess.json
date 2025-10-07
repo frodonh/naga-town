@@ -1,0 +1,50 @@
+{
+	"nagasarevess" : 
+	{
+
+		"class" : "nagaseawitch",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "萨利维丝",
+			"biography" : "萨利维丝是娜迦最具天赋的海巫之一，她对魔力有着独到的理解，使得萨利维丝施放的魔法极具侵略性。",
+			"specialty" :
+			{
+				"description" : "在魔力上每级得到5%的额外奖励。",
+				"tooltip" : "Secondary Skill Bonus: 魔力",
+				"name" : "魔力"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Sarevess/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Sarevess/spec-big.bmp",
+			"large" : "naga/heroes/Sarevess/sarevess-big.bmp",
+			"small" : "naga/heroes/Sarevess/sarevess-small.bmp"
+		},
+        "spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"secondary" : "sorcery"
+		}				
+	}
+}

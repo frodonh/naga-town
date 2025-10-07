@@ -1,0 +1,103 @@
+{
+	"name" : "Naga Town",
+	"description" : "Naga town",
+	"author" : "美术大师：Luckiplus    制作总监：Luckiplus    技能设计：Luckiplus    平衡调整：吓死蛮牛  红枫居士",
+	"contact" : "东方秘境1群:1049463408",
+	"version" : "1.0.2",
+	"modType" : "Town",
+	"changelog" :
+	{
+		"0.7"   : [ "Initial release"  ]
+	},
+	"compatibility":
+	{
+		"min" : "1.7.0"
+	},
+	"language": "chinese",
+	"chinese" : {
+		"name" : "娜迦",
+		"description" : "新城镇娜迦族"
+		
+	},
+	"factions" : [ "config/naga/town.json" ],
+	"creatures" :
+	[
+		"config/naga/creatures/nagalv1.json",
+		"config/naga/creatures/nagalv2.json",
+		"config/naga/creatures/nagalv3.json",
+		"config/naga/creatures/nagalv4.json",
+		"config/naga/creatures/nagalv5.json",
+		"config/naga/creatures/nagalv6.json",
+		"config/naga/creatures/nagalv7.json",
+		"config/naga/creatures/nagalv1up.json",
+		"config/naga/creatures/nagalv2up.json",
+		"config/naga/creatures/nagalv2th.json",
+		"config/naga/creatures/nagalv3up.json",
+		"config/naga/creatures/nagalv4up.json",
+		"config/naga/creatures/nagalv5up.json",
+		"config/naga/creatures/nagalv6up.json",
+		"config/naga/creatures/nagalv6th.json",
+		"config/naga/creatures/nagalv7up.json",
+		"config/naga/creatures/nagalv7th.json",
+		"config/naga/creatures/nagalv1th.json",
+		"config/naga/creatures/nagalv3th.json",
+		"config/naga/creatures/nagalv4th.json",
+		"config/naga/creatures/nagalv4th1.json",
+		"config/naga/creatures/nagalv4sm.json",
+		"config/naga/creatures/nagalv5th1.json",
+		"config/naga/creatures/nagalv5th2.json",
+		"config/naga/creatures/nagaspc1.json",
+		"config/naga/creatures/nagaHarpoon.json",
+		"config/naga/commander/nagaHyppoCommander.json"
+	],
+    "artifacts":
+    [              
+		"config/naga/artifacts/nagaHarpoon.json"        
+    ],	
+	"heroClasses" :
+	[
+		"config/naga/classes/nagaseawitch.json",
+		
+		"config/naga/classes/nagalord.json"
+	],
+	
+	"spells" :
+	[
+		"config/naga/spells/moat.json",
+		"config/naga/spells/nagacurse.json",
+		
+		"config/naga/spells/nagalv4smspell.json",
+		"config/naga/spells/nagacatapult.json",
+		"config/naga/spells/nagabarb.json",
+		"config/naga/spells/nagabless.json"
+	],
+
+	"heroes" :
+	[
+		"config/naga/heroes/nazjan.json",
+		"config/naga/heroes/xiz.json",
+		"config/naga/heroes/sarevess.json",
+        "config/naga/heroes/megafin.json",
+        "config/naga/heroes/najentus.json",
+        "config/naga/heroes/morogrim.json",
+        "config/naga/heroes/sirakess.json",
+        "config/naga/heroes/karathress.json",
+        "config/naga/heroes/nazjar.json",
+        "config/naga/heroes/athissa.json",
+        "config/naga/heroes/zithreen.json",
+        "config/naga/heroes/sasszine.json",
+        "config/naga/heroes/parjesh.json",
+        "config/naga/heroes/sashjtar.json",
+        "config/naga/heroes/vashj.json",
+        "config/naga/heroes/zalgira.json",
+        "config/naga/heroes/slark.json",
+        "config/naga/heroes/murkeye.json",
+        "config/naga/heroes/delacour.json",
+        "config/naga/heroes/threek.json"
+	],
+	
+	"objects" : 
+	[ 
+		"config/naga/dwellings.json"
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"nagalv3th":
+	{
+		"name" :
+		{
+			"plural" : "咒鳍龙",
+			"singular" : "咒鳍龙"
+		},
+		"faction" : "naga",
+		"special" : true,
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 18
+		},
+		"level" : 3,
+		"doubleWide" : true,
+		"attack" : 9,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 24,
+		"speed" : 9,
+		"shots" : 12,
+		"fightValue" : 320,
+		"aiValue" : 400,
+		"cost" :
+		{
+			"gold" : 285
+		},
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "naga/battle/creatures/nagalv3th.def",
+			"map" : "naga/map/creatures/nagalv3th_map.def",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv3th_small.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv3th_big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.05,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRGOGX.DEF",
+				"attackClimaxFrame" : 9,
+				"offset" :
+				{
+					"upperX" : 53,
+					"upperY" : -15,
+					"middleX" : 70,
+					"middleY" : -15,
+					"lowerX" : 65,
+					"lowerY" : -10
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" :
+		{
+			"attack": "naga/nagalv3attack.wav",
+			"defend": "naga/nagalv3defend.wav",
+			"killed": "naga/nagalv3death.wav",
+			"shoot": "naga/nagalv3shoot.wav",
+			"move": "BASLMOVE.wav",
+			"wince": "BASLWNCE.wav"
+        },
+		"abilities" :
+		{
+            "shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+        },
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [ 0, 0, 0, 0, 10, 10, 10, 20, 20, 20]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	}
+}

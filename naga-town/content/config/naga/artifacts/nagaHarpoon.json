@@ -1,0 +1,24 @@
+{
+	"harpoonlaucher":
+        {
+	"type" : ["HERO"],
+	"warMachine":"nagaHarpoon",
+        "class": "SPECIAL",
+        "value": 3000,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "娜迦鱼叉炮",
+			"description": "{娜迦鱼叉炮}\r\n\r\n军械科学家的最新发明，用于摧毁敌人部队的利器。",
+			"event": "通用战争机器娜迦鱼叉炮可让你攻击敌方的城墙。"
+		},
+		"graphics":
+		{
+			"image": "naga/iconsSmall/creatures/artifacts/nagaHarpoon.bmp",
+			"map"  :   "naga/map/artifacts/avcnbksm.def",
+			"scenarioBonus" : "naga/icons/blank.png"
+		}
+	}
+}
+
+

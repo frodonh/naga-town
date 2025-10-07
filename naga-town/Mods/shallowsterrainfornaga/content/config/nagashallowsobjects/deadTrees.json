@@ -1,0 +1,172 @@
+{
+	"core:deadVegetation": {
+		"name": "Corals",
+		"types": {
+			"object": {
+			"name": "Corals",
+				"sounds":
+				{
+					"ambient":["waterflow/reefwaterloop2"]
+				},	
+				"templates": {
+
+					"nagaxFALG0003": {
+						"animation": "nagashallowsdeadTrees/xFALG0003",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0004": {
+						"animation": "nagashallowsdeadTrees/xFALG0004",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0005": {
+						"animation": "nagashallowsdeadTrees/xFALG0005",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0006": {
+						"animation": "nagashallowsdeadTrees/xFALG0006",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},			
+					"nagaxFALG0007": {
+						"animation": "nagashallowsdeadTrees/xFALG0007",
+						"mask": ["VVVV", "VBBV", "VBBB", "VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxash03": {
+						"animation": "nagashallowsdeadTrees/xash03",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},		
+					"nagaxash04": {
+						"animation": "nagashallowsdeadTrees/xash04",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxash05": {
+						"animation": "nagashallowsdeadTrees/xash05",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxash06": {
+						"animation": "nagashallowsdeadTrees/xash04",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxash07": {
+						"animation": "nagashallowsdeadTrees/xash07",
+						"mask": ["VVVV", "VBBV", "VBBB","VVBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0001": {
+						"animation": "nagashallowsdeadTrees/xFALG0001",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0002": {
+						"animation": "nagashallowsdeadTrees/xFALG0002",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFALG0009": {
+						"animation": "nagashallowsdeadTrees/xFALG0009",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0014": {
+						"animation": "nagashallowsdeadTrees/xFSWG0014",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0015": {
+						"animation": "nagashallowsdeadTrees/xFSWG0015",
+						"mask": ["VV", "VB"],
+
+					"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0016": {
+						"animation": "nagashallowsdeadTrees/xFSWG0016",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0017": {
+						"animation": "nagashallowsdeadTrees/xFSWG0017",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0018": {
+						"animation": "nagashallowsdeadTrees/xFSWG0018",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0019": {
+						"animation": "nagashallowsdeadTrees/xFSWG0019",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0020": {
+						"animation": "nagashallowsdeadTrees/xFSWG0020",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0021": {
+						"animation": "nagashallowsdeadTrees/xFSWG0021",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFSWG0022": {
+						"animation": "nagashallowsdeadTrees/xFSWG0022",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"nagalv2up":
+	{
+		"name" :
+		{
+			"plural" : "翼蛇",
+			"singular" : "翼蛇"
+		},
+		"hasDoubleWeek": true,
+		"doubleWide" : false,
+     	"faction" : "naga",
+		"advMapAmount" :
+		{
+			 "min" : 14,
+			 "max" : 25
+		},
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 4,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 5
+		},
+		"growth" : 8,
+		"hitPoints" : 14,
+		"speed" : 9,
+		"fightValue" : 177,
+		"aiValue" : 217,
+		"cost" :
+		{
+			"gold" : 170
+		},
+		"horde" : 4,
+		"graphics" :
+		{
+			"animation" : "naga/battle/creatures/nagalv2up.def",
+			"map" : "naga/map/creatures/nagalv2up_map.def",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv2up_small.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv2up_big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "naga/nagalv2attack.wav",
+			"defend": "naga/nagalv2defend.wav",
+			"killed": "naga/nagalv2death.wav",
+			"move": "RGRFMOVE.wav",
+			"wince": "naga/nagalv2wince.wav"
+        },
+		"abilities" :
+		{        
+			"flying":
+			{
+				"type":"FLYING"
+            },
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 20
+			}	
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+					"subtype" : "spellSchool.water"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	}
+}

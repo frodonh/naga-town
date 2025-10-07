@@ -1,0 +1,27 @@
+{
+	"nagashallows" :
+	{
+		"text" : "nagaShallows",
+		"moveCost" : 135,
+		"minimapUnblocked" : [ 86, 196, 248 ],
+		"minimapBlocked"   : [ 60, 125, 174 ],
+		"music" : [ "nagashallows/homm4sea" ],
+		"tiles" : "nagashallowsterrain/xgrastlbad.def",
+		"river" : "nagaunderwatertrench",
+		"rockTerrain":"rock",
+		"shortIdentifier" : "sh",
+		"type" : ["SURFACE"],
+		"battleFields" : ["nagashallows", "nagashallows2", "nagashallows3", "nagashallows4", "nagashallows5", "nagashallows6", "nagashallows7"],
+		"transitionRequired" : false,
+		"horseSound" : "horse04",
+		"horseSoundPenalty" : "walk/walkwater",
+		"paletteAnimation" : [
+			{ "start" : 229, "length" : 12 },
+			{ "start" : 242, "length" : 12 }
+		],
+		"sounds":
+		{
+		"ambient": [ "waterflow/reefwaterloop2.ogg" ]
+		}
+	}
+}

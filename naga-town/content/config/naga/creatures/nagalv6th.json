@@ -1,0 +1,146 @@
+{
+	"nagalv6th":
+	{
+		"name" :
+		{
+			"plural" : "海巨人踏潮者",
+			"singular" : "海巨人踏潮者"
+		},
+		"doubleWide" : true,
+		"faction" : "naga",		
+		"advMapAmount" :
+		{
+			 "min" : 4,
+			 "max" : 8
+		},
+		"level" : 6,
+		"attack" : 20,
+		"defense" : 18,
+		"damage" :
+		{
+			 "min" : 20,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 120,
+		"speed" : 9,
+		"fightValue" : 2380,
+		"aiValue" : 2850,
+		"cost" :
+		{
+			"gold" : 1500
+		},
+		"graphics" :
+		{	
+			"animation" : "naga/battle/creatures/nagalv6th.def",
+			"map" : "naga/map/creatures/nagalv6th_map.def",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv6th_small.bmp",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv6th_big.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.28,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "naga/nagalv6attack.wav",
+			"defend": "naga/nagalv6defend.wav",
+			"killed": "naga/nagalv6death.wav",
+			"move": "CRYSMOVE.wav",
+			"wince": "naga/nagalv6wince.wav"
+                 },
+		"abilities" :
+		{
+			"waterImmunity":
+			{
+				"type":"NEGATIVE_EFFECTS_IMMUNITY",
+                "subtype": "water"
+			},
+			"block" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"val" : 15
+			},
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION"
+			},
+			"attacksAllAdjacent":
+			{
+				"type":"ATTACKS_ALL_ADJACENT"
+            },
+            "regeneration" : { 
+				"type" : "HP_REGENERATION", 
+				"val" : 50
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 30, 30, 35, 35, 35, 40, 40, 40 , 45, 45 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll"
+				},
+				"values" : [ 20, 20, 20, 25, 25, 25, 25, 30, 30, 30]
+			}
+		]
+	}
+}

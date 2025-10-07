@@ -1,0 +1,256 @@
+{
+	"core:lake": {
+				"name": "Depression",
+		"types": {
+			"nagashallowsdepression": {
+				"name": "Depression",		
+				"sounds":
+				{
+					"ambient":["waterflow/reefwaterloop2"]
+				},						
+				"templates": {
+					"nagaxFrgCra01": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra01",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra02": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra02",
+						"mask": ["VBB", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra03": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra03",
+						"mask": ["BBBBBB", "BBBBBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra04": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra04",
+						"mask": ["BBV", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra05": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra05",
+						"mask": ["BBB", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra06": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra06",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra07": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra07",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra08": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra08",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra09": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra09",
+						"mask": ["BBB", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra10": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra10",
+						"mask": ["BBB", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra11": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra11",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra12": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra12",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra13": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra13",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra14": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra14",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra15": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra15",
+						"mask": ["B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra16": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra16",
+						"mask": ["B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra17": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra17",
+						"mask": ["B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra18": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra18",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra19": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra19",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra20": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra20",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra21": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra21",
+						"mask": ["B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra22": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra22",
+						"mask": ["B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra23": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra23",
+						"mask": ["B", "B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra24": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra24",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra25": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra25",
+						"mask": ["B", "B"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra26": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra26",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra27": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra27",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra28": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra28",
+						"mask": ["VB", "BB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra29": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra29",
+						"mask": ["BBB", "BBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					},
+					"nagaxFrgCra30": {
+						"zIndex": 100,				
+						"animation": "nagashallowstoxicWaste/xFrgCra30",
+						"mask": ["BBBBBB", "BBBBBB"],
+						"allowedTerrains": [
+							"nagashallows"
+						]
+					}
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,52 @@
+{
+	"naganazjar" : 
+	{
+		"class" : "nagaseawitch",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "纳兹夏尔女士",
+			"biography" : "纳兹夏尔女士从小就具有超绝的水系魔法天赋，曾经在与瓦斯琪女士争夺海洋神力的对决中遗憾落败。但是她强大的水系魔力仍然是股不能忽视的力量。",
+			"specialty" : 
+			{
+				"description" : "每级提升5%水系魔法伤害。",
+				"tooltip" : "Spell Bonus: 水系魔法",
+				"name" : "水系魔法"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "naga/heroes/Nazjar/spec-small.bmp",
+			"specialtyLarge" : "naga/heroes/Nazjar/spec-big.bmp",
+			"large" : "naga/heroes/Nazjar/nazjar-big.bmp",
+			"small" : "naga/heroes/Nazjar/nazjar-small.bmp"
+        	},
+		"spellbook" :
+		[
+			"cure"
+		],
+
+       		"army" :
+		[
+			{ "creature" : "nagalv1", "min" : 10, "max" : 15 },
+			{ "creature" : "nagalv2", "min" : 6, "max" : 9 },
+			{ "creature" : "nagalv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "waterMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"waterMagic" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.water",	
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}		
+	}
+}

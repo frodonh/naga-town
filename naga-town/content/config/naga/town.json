@@ -1,0 +1,1065 @@
+{
+	"naga" : {
+		"alignment" : "neutral",
+		"boat" : "boatFortress",
+		"creatureBackground" : { "120px" : "naga/creature-bg-120px.bmp", "130px" : "naga/creature-bg-130px.bmp" },
+		"name" : "娜迦",
+		"nativeTerrain" : "grass",
+		"puzzleMap" : {
+			"prefix" : "naga/puzzle-map/",
+			"pieces" :
+			[
+				{ "x": 7, "y": 7, "index": 36 },
+				{ "x": 7, "y": 7, "index": 25 },
+				{ "x": 7, "y": 7, "index": 34 },
+				{ "x": 7, "y": 7, "index": 23 },
+				{ "x": 7, "y": 7, "index": 15 },
+				{ "x": 7, "y": 7, "index": 37 },
+				{ "x": 7, "y": 7, "index": 38 },
+				{ "x": 7, "y": 7, "index": 39 },
+				{ "x": 7, "y": 7, "index": 8 },
+				{ "x": 7, "y": 7, "index": 47 },
+				{ "x": 7, "y": 7, "index": 1 },
+				{ "x": 7, "y": 7, "index": 30 },
+				{ "x": 7, "y": 7, "index": 41 },
+				{ "x": 7, "y": 7, "index": 33 },
+				{ "x": 7, "y": 7, "index": 40 },
+				{ "x": 7, "y": 7, "index": 11 },
+				{ "x": 7, "y": 7, "index": 19 },
+				{ "x": 7, "y": 7, "index": 13 },
+				{ "x": 7, "y": 7, "index": 24 },
+				{ "x": 7, "y": 7, "index": 18 },
+				{ "x": 7, "y": 7, "index": 20 },
+				{ "x": 7, "y": 7, "index": 46 },
+				{ "x": 7, "y": 7, "index": 9 },
+				{ "x": 7, "y": 7, "index": 7 },
+				{ "x": 7, "y": 7, "index": 48 },
+				{ "x": 7, "y": 7, "index": 5 },
+				{ "x": 7, "y": 7, "index": 26 },
+				{ "x": 7, "y": 7, "index": 22 },
+				{ "x": 7, "y": 7, "index": 16 },
+				{ "x": 7, "y": 7, "index": 43 },
+				{ "x": 7, "y": 7, "index": 10 },
+				{ "x": 7, "y": 7, "index": 45 },
+				{ "x": 7, "y": 7, "index": 17 },
+				{ "x": 7, "y": 7, "index": 21 },
+				{ "x": 7, "y": 7, "index": 3 },
+				{ "x": 7, "y": 7, "index": 42 },
+				{ "x": 7, "y": 7, "index": 14 },
+				{ "x": 7, "y": 7, "index": 12 },
+				{ "x": 7, "y": 7, "index": 35 },
+				{ "x": 7, "y": 7, "index": 29 },
+				{ "x": 7, "y": 7, "index": 27 },
+				{ "x": 7, "y": 7, "index": 2 },
+				{ "x": 7, "y": 7, "index": 32 },
+				{ "x": 7, "y": 7, "index": 4 },
+				{ "x": 7, "y": 7, "index": 44 },
+				{ "x": 7, "y": 7, "index": 31 },
+				{ "x": 7, "y": 7, "index": 6 },
+				{ "x": 7, "y": 7, "index": 28 }
+			]
+		},
+		"town" : {
+		    "defaultTavern" : 5,
+			"buildings" : {
+				"mageGuild1" :
+				{
+					
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
+					"name" : "1级魔法行会",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					}
+				},
+				"mageGuild2" :
+				{
+					
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
+					"name" : "2级魔法行会",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					}
+				},
+				"mageGuild3" :
+				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
+					"name" : "3级魔法行会",
+					"cost" :
+					{
+		 				"wood": 5,
+                        "mercury": 6,
+                        "ore": 5, 
+					    "sulfur": 6,
+                        "crystal": 6,
+                        "gems": 6,
+                        "gold": 1000
+					}
+				},
+				"mageGuild4" :
+				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
+					"name" : "4级魔法行会",
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 8,
+                        "ore": 5,
+                        "sulfur": 8,
+                        "crystal": 8,
+                        "gems": 8,
+                        "gold": 1000
+					}
+				},
+				"mageGuild5" :
+				{
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法",
+					"name" : "5级魔法行会",
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 10,
+                        "ore": 5,
+                        "sulfur": 10,
+                        "crystal": 10,
+                        "gems": 10,
+                        "gold": 1000
+					}
+				},				
+				"tavern" :
+				{
+					"name" : "酒馆",
+					"description" : "酒馆可提高驻军的士气。",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"fort" :
+				{
+					"name" : "堡垒",
+					"description" : "堡垒可为你的城镇提供城墙。",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					}
+				},
+				"citadel" :
+				{
+					"name" : "大本营",
+					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					}
+				},
+				"castle" :
+				{
+					"name" : "城堡",
+					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					}
+				},
+				"villageHall" :
+				{
+					"name" : "议事堂",
+					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。"
+				},
+				"townHall" :
+				{
+					"name" : "内政厅",
+					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"cost" :
+					{
+						"gold" : 2500
+					}
+				},
+				"cityHall" :
+				{
+					"name" : "议会",
+					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"cost" :
+					{
+						"gold" : 5000
+					}
+				},
+				"capitol" :
+				{
+					"name" : "国会",
+					"description" : "国会每天向你提供4000个金币。",
+					"cost" :
+					{
+						"gold" : 10000
+					}
+				},
+				"marketplace" :
+				{
+					"name" : "市场",
+					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"resourceSilo" :
+				{
+					"description" : "物资仓库每天为你额外提供1水银。",
+					"name" : "物资仓库",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"produce": { "mercury": 1 }
+				},
+				"blacksmith" :
+				{
+					"description" : "铁匠铺可向你的军队提供娜迦鱼叉炮。",
+					"name" : "铁匠铺",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"warMachine" : "harpoonlaucher"
+				},
+				"horde2" :
+				{
+					"description" : "凯旋门使飞蛇和翼蛇的周产量+4。",
+					"name" : "凯旋门",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ]
+				},
+				"horde2Upgr" :
+				{
+					"description" : "凯旋门使飞蛇和翼蛇的周产量+4。",
+					"name" : "凯旋门",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : [ "horde2" ]
+				},
+				
+				"special1" : 
+				{
+					"description" : "只需支付少量费用，你就可以从宝物商店购买宝物。并且允许出售宝物。",
+					"name" : "宝物商店",
+					"cost" : 
+					{
+						"gold" : 10000
+					},
+					"marketModes" : ["resource-artifact", "artifact-resource"],
+					"requires" : [ "marketplace" ]
+				},
+				"special2" : 
+				{
+					"description" : "在攻城战中，守护之光能使部队士气+2。",
+					"name" : "守护之光", 
+					"cost" : 
+					{
+						"mercury" : 5,
+						"gold" : 1500
+					},
+					"upgradeReplacesBonuses" : true,
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2
+						}
+					],
+					"requires" : [ "fort" ]
+				},	
+				"special3" : 
+				{
+					"description" : "流荡静石使每个来访英雄的力量+1。",
+					"name" : "流荡静石",
+					"cost" : 
+					{
+						"crystal" : 5,
+						"gold" : 2000
+					},
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.582",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
+					"requires" : [ "mageGuild1" ]
+				},	
+				"special4" :
+				{
+					"description" : "虬龙像使骁龙和毒鳍龙的周产量+3。",
+					"name" : "虬龙像",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"bonuses" : [
+						{
+						"type" : "CREATURE_GROWTH",
+						"subtype" : "creatureLevel3",
+						"val" : 3,
+						"propagator": "TOWN_AND_VISITOR"
+						}
+					],
+					"requires" : [ "allOf", ["fort"], ["dwellingLvl3"] ]
+				},
+				"grail" :
+				{
+					"description" : "源流神力使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，上下船不清空移动力，并可安全通过漩涡。",
+					"name" : "源流神力",
+					"bonuses" : [
+					    { "type" : "FREE_SHIP_BOARDING", "val" : 0, "propagator": "TEAM" },
+					    { "type" : "SPELL", "val" : 3, "subtype" : "spell.summonBoat", "propagator": "TEAM" },
+						{ "type" : "SPELL", "val" : 3, "subtype" : "spell.scuttleBoat", "propagator": "TEAM" },
+                        { "type" : "WHIRLPOOL_PROTECTION", "val" : 0, "propagator": "TEAM" }
+					]
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "渔猎草棚允许你招募劣鱼人。",
+					"name" : "渔猎草棚",
+					"cost" : 
+					{
+						"gold": 500,
+                        "wood": 5,
+                        "ore": 5
+					},
+					"requires" : [ "fort" ]
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "珊瑚飞礁允许你招募飞蛇。",
+					"name" : "珊瑚飞礁",
+					"cost" : 
+					{
+			 			"gold": 1000,
+                        "wood": 5,
+                        "ore": 5
+					},
+					"requires" : [ "fort" ]
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "潜虬井允许你招募骁龙。",
+					"name" : "潜虬井",
+					"cost" : 
+					{
+						"gold": 1500,
+                        "wood": 5
+					},
+					"requires" : [ "dwellingLvl2" ]
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "潮汐神庙允许你招募娜迦女妖。",
+					"name" : "潮汐神庙",
+					"cost" : 
+					{
+						"gold": 2000,
+                        "ore": 10,
+                        "sulfur": 5
+					},
+					"requires" : [ "allOf", ["dwellingLvl2"], ["dwellingLvl3"],["mageGuild1"]]
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "娜迦圣坛允许你招募娜迦侍从。",
+					"name" : "娜迦圣坛",
+					"cost" : 
+					{
+						"gold": 4000,
+                        "wood": 10,
+						"ore": 4,
+						"crystal": 4,
+                        "gems": 4
+					},
+					"requires" : [ "allOf", ["blacksmith"], ["dwellingLvl3"] ]
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "潮海地洞允许你招募海巨人。",
+					"name" : "潮海地洞",
+					"cost" : 
+					{
+						"gold": 5000,
+                        "ore": 10,
+                        "crystal": 10
+					},
+					"requires" : [ "allOf", ["dwellingLvl5"], ["blacksmith"] ]
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "薄雾海沟允许你招募娜迦海龟。",
+					"name" : "薄雾海沟",
+					"cost" : 
+					{
+						"gold": 15000,
+                        "ore": 12,
+                        "wood": 12,
+                        "mercury": 16
+					},
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ]
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "高级渔猎草棚允许你招募劣鱼人猎手",
+					"name" : "高级渔猎草棚",
+					"cost" :
+					{
+						"gold": 1000,
+                        "wood": 5 
+					},
+					"requires" : [ "tavern" ],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "高级珊瑚飞礁允许你招募翼蛇。",
+					"name" : "高级珊瑚飞礁",
+					"cost" : 
+					{
+						"gold": 1000,
+                        "ore": 5,
+                        "wood": 5
+					},
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "高级潜虬井允许你招募毒鳍龙。",
+					"name" : "高级潜虬井",
+					"cost" : 
+					{
+						"gold": 1500,
+                        "wood": 10
+					},
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "高级潮汐神庙允许你招募娜迦海妖。",
+					"name" : "高级潮汐神庙",
+					"cost" : 
+					{
+						"sulfur": 5,
+                        "gold": 2000,
+                        "ore": 5
+					},
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "高级娜迦圣坛允许你招募娜迦守卫。",
+					"name" : "高级娜迦圣坛",
+					"cost" : 
+					{
+						"wood": 5,
+                        "gold": 2500,
+                        "gems": 5
+					},
+					"requires" : [ "dwellingUpLvl4" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "高级潮海地洞允许你招募潮海巨人。",
+					"name" : "高级潮海地洞",
+					"cost" : 
+					{
+						"gold": 3000,
+                        "ore": 10,
+                        "mercury": 5,
+                        "crystal": 5
+					},
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "浓雾海渊允许你招募娜迦龙龟。",
+					"name" : "浓雾海渊",
+					"cost" : 
+					{
+						"gold": 20000,
+                        "ore": 15,
+                        "wood": 15,
+                        "mercury": 20
+					},
+					"requires" : [ "allOf", ["mageGuild3"], ["dwellingUpLvl5"] ],
+					"upgrades" : "dwellingLvl7"
+				}				
+			},
+			"buildingsIcons" : "naga/naga-town-hall.def",
+			"creatures" : [
+				[ "nagalv1", "nagalv1up" ],
+				[ "nagalv2", "nagalv2up" ],
+				[ "nagalv3", "nagalv3up" ],
+				[ "nagalv4", "nagalv4up" ],
+				[ "nagalv5", "nagalv5up"  ],
+				[ "nagalv6", "nagalv6up" ],
+				[ "nagalv7", "nagalv7up" ]
+			],
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" : {
+				"bless"          : 5,
+				"bloodlust"      : 0,
+				"cure"           : 5,
+				"curse"          : 0,
+				"dispel"         : 10,
+				"haste"          : 10,
+				"magicArrow"     : 25,
+				"protectAir"     : 5,
+				"protectFire"    : 0,
+				"shield"         : 5,
+				"slow"           : 15,
+				"stoneSkin"      : 2,
+				"summonBoat"     : 5,
+				"viewAir"        : 3,
+				"viewEarth"      : 3,
+				"disguise"       : 2,
+				"disruptingRay"  : 8,
+				"fireWall"       : 0,
+				"fortune"        : 10,
+				"iceBolt"        : 10,
+				"lightningBolt"  : 35,
+				"precision"      : 6,
+				"quicksand"      : 4,
+				"removeObstacle" : 6,
+				"scuttleBoat"    : 4,
+				"visions"        : 2,
+				"weakness"       : 10,
+				"airShield"      : 2,
+				"antiMagic"      : 20,
+				"earthquake"     : 30,
+				"fireball"       : 2,
+				"forceField"     : 4,
+				"forgetfulness"  : 8,
+				"frostRing"      : 10,
+				"hypnotize"      : 2,
+				"landMine"       : 0,
+				"mirth"          : 2,
+				"misfortune"     : 0,
+				"protectEarth"   : 8,
+				"protectWater"   : 10,
+				"teleport"       : 2,
+				"berserk"        : 0,
+				"chainLightning" : 10,
+				"clone"          : 5,
+				"counterstrike"  : 5,
+				"fireShield"     : 0,
+				"frenzy"         : 5,
+				"inferno"        : 0,
+				"meteorShower"   : 0,
+				"prayer"         : 5,
+				"resurrection"   : 5,
+				"slayer"         : 0,
+				"sorrow"         : 5,
+				"townPortal"     : 15,
+				"waterWalk"      : 5,
+				"airElemental"   : 4,
+				"dimensionDoor"  : 15,
+				"earthElemental" : 8,
+				"fireElemental"  : 0,
+				"fly"            : 15,
+				"implosion"      : 15,
+				"magicMirror"    : 15,
+				"sacrifice"      : 0,
+				"waterElemental" : 15
+			},
+			"guildWindow" : "naga/town-screen/mage-guild.bmp",
+			"hallBackground" : "naga/town-screen/TPTHBKFC.bmp",
+			"horde" : [ 7, 1 ],
+			"moatAbility" : "nagaMoat",
+			"icons" : {
+				"village" : {
+					"normal" : {"small" : "naga/icons/hall-small.bmp", "large" : "naga/icons/hall-big.bmp" },
+					"built"  : {"small" : "naga/icons/hall-builded-small.bmp", "large" : "naga/icons/hall-builded-big.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "naga/icons/fort-small.bmp", "large" : "naga/icons/fort-big.bmp" },
+					"built"  : {"small" : "naga/icons/fort-builded-small.bmp", "large" : "naga/icons/fort-builded-big.bmp" }
+				}
+			},
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "naga/map/naga_capital.def"},
+					"castle" : { "animation" : "naga/map/naga_castle.def"},
+					"citadel" : { "animation" : "naga/map/naga_citadel.def"},
+					"fort" : { "animation" : "naga/map/naga_fort.def"},
+					"village" : { "animation" : "naga/map/naga_village.def"}
+				}
+			},
+			"mageGuild" : 5,
+			"musicTheme" : ["music/factions/Town"],
+			"names" : [
+				"纳沙塔尔",
+				"瓦丝琪尔",
+				"艾萨拉",
+				"阿苏纳",
+				"纳兹米尔",
+				"永恒潮汐",
+				"黑暗深渊",
+				"黑海岸",
+				"深渊之喉",
+				"潮歌城",
+				"辛艾萨琳",
+				"盘牙水库",
+				"孵化之渊",
+				"潮汐圣所",
+				"烁海城",
+				"平海"
+			],
+			"primaryResource" : "mercury",
+			"siege" : {
+				"shooter" : "nagalv4",
+				"imagePrefix" : "naga/siege/SgDn",
+				"towerIconSmall" : "naga/icons/towerSmall",
+				"towerIconLarge" : "naga/icons/towerLarge",
+				"towers" :
+				{
+					"top" :
+					{
+						"battlement" : { "x" : 565, "y" : 15 },
+						"creature" : { "x" : 347, "y" : -187 },
+						"tower" : { "x" : 565, "y" : 15 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 732, "y" : 162 },
+						"creature" : { "x" : 530, "y" : -33 },
+						"tower" : { "x" : 732, "y" : 162 }
+					},
+					"bottom" :
+					{
+						"battlement" : { "x" : 580, "y" : 495 },
+						"creature" : { "x" : 361, "y" : 293 },
+						"tower" : { "x" : 580, "y" : 495 }
+					}					
+				},
+				"gate" :
+				{
+					"arch" : { "x" : 471, "y" : 164 },
+					"gate" : { "x" : 395, "y" : 260 }
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 559, "y" : 448 },
+					"bottomMid" : { "x" : 471, "y" : 296 },
+					"upper" : { "x" : 523, "y" : 56 },
+					"upperMid" : { "x" : 477, "y" : 180 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 283, "y" : 94 },
+					"moat" : { "x" : 283, "y" : 94 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 608, "y" : 50 },
+					"bottom" : { "x" : 522, "y" : 305 },
+					"top" : { "x" : 494, "y" : 53 }
+				}
+			},
+			"structures" : {
+				"mageGuild1" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMageguild1",
+					"area" : "naga/town-screen/buildings-area/town_screen_mageguild1_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_mageguild1_border",
+					"x" : 417,
+					"y" : 129,
+					"z" : 0
+				},
+				"mageGuild2" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMageguild2",
+					"area" : "naga/town-screen/buildings-area/town_screen_mageguild2_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_mageguild2_border",
+					"x" : 385,
+					"y" : 126,
+					"z" : 0
+				},
+				"mageGuild3" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMageguild3",
+					"area" : "naga/town-screen/buildings-area/town_screen_mageguild3_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_mageguild3_border",
+					"x" : 368,
+					"y" : 126,
+					"z" : 0
+				},
+				"mageGuild4" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMageguild4",
+					"area" : "naga/town-screen/buildings-area/town_screen_mageguild4_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_mageguild4_border",
+					"x" : 338,
+					"y" : 111,
+					"z" : 0
+				},
+				"mageGuild5" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMageguild5",
+					"area" : "naga/town-screen/buildings-area/town_screen_mageguild5_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_mageguild5_border",
+					"x" : 317,
+					"y" : 111,
+					"z" : 0
+				},				
+				"tavern" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaJiuguan",
+					"area" : "naga/town-screen/buildings-area/town_screen_jiuguan_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_jiuguan_border",
+					"x" : 404,
+					"y" : 117,
+					"z" : 5
+				},
+				"fort" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaFort",
+					"area" : "naga/town-screen/buildings-area/town_screen_fort_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_fort_border",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"citadel" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaCitadel",
+					"area" : "naga/town-screen/buildings-area/town_screen_citadel_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_citadel_border",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"castle" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaCastle",
+					"area" : "naga/town-screen/buildings-area/town_screen_castle_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_castle_border",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"villageHall" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaHall",
+					"area" : "naga/town-screen/buildings-area/town_screen_hall_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_hall_border",
+					"x" : 473,
+					"y" : 77,
+					"z" : 4
+				},
+				"townHall" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaNeizheng",
+					"area" : "naga/town-screen/buildings-area/town_screen_neizheng_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_neizheng_border",
+					"x" : 279 ,
+					"y" : 64,
+					"z" : 4
+				},
+				"cityHall" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaYihui",
+					"area" : "naga/town-screen/buildings-area/town_screen_yihui_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_yihui_border",
+					"x" : 239 ,
+					"y" : 46,
+					"z" : 4
+				},
+				"capitol" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaCapital",
+					"area" : "naga/town-screen/buildings-area/town_screen_capital_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_capital_border",
+					"x" : 241 ,
+					"y" : 0,
+					"z" : 4
+				},
+				"marketplace" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaMarket",
+					"area" : "naga/town-screen/buildings-area/town_screen_market_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_market_border",
+					"x" : 643,
+					"y" : 75,
+					"z" : 0
+				},
+				"resourceSilo" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaCangku",
+					"area" : "naga/town-screen/buildings-area/town_screen_cangku_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_cangku_border",
+					"x" : 614,
+					"y" : 85,
+					"z" : 1
+				},
+				"blacksmith" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaTiejiangpu",
+					"area" : "naga/town-screen/buildings-area/town_screen_tiejiangpu_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_tiejiangpu_border",
+					"x" : 288,
+					"y" : 207, 
+					"z" : 0
+				},
+				
+				"horde2" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaHorde2",
+					"area" : "naga/town-screen/buildings-area/town_screen_horde2_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_horde2_border",
+					"x" : 339,   
+					"y" : 190, 
+					"z" : 0
+				},
+				"horde2Upgr" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaHorde2",
+					"area" : "naga/town-screen/buildings-area/town_screen_horde2_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_horde2_border",
+					"x" : 339,   
+					"y" : 190,
+					"z" : 0
+				},
+				"special4" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaHorde1",
+					"area" : "naga/town-screen/buildings-area/town_screen_horde1_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_horde1_border",
+					"x" : 157,
+					"y" : 220,
+					"z" : 2
+				},
+				"special1" : 
+				{
+					"animation" : "naga/town-screen/buildings/nagaSpecial1",
+					"area" : "naga/town-screen/buildings-area/town_screen_special1_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_special1_border",
+					"x" : 447,   
+					"y" : 173, 
+					"z" : 2
+				},
+				"special2" : 
+				{
+					"animation" : "naga/town-screen/buildings/nagaSpecial2",
+					"area" : "naga/town-screen/buildings-area/town_screen_special2_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_special2_border",
+					"x" : 404, 
+					"y" : 220, 
+					"z" : 5
+				},		
+				"special3" : 
+				{
+					"animation" : "naga/town-screen/buildings/nagaSpecial3",
+					"area" : "naga/town-screen/buildings-area/town_screen_special3_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_special3_border",
+					"x" : 82, 
+					"y" : 251,
+					"z" : 2
+				},	
+				"grail" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaGrail",
+					"area" : "naga/town-screen/buildings-area/town_screen_grail_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_grail_border",
+					"x" : 0, 
+					"y" : 0,  
+					"z" : 0
+				},
+				"dwellingLvl1" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw1",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw1_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw1_border",
+					"x" : 720, 
+					"y" : 90,  
+					"z" : 0
+				},
+				"dwellingLvl2" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw2",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw2_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw2_border",
+					"x" : 365, 
+					"y" : 0, 
+					"z" : 0
+				},
+				"dwellingLvl3" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw3",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw3_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw3_border",
+					"x" : 552,   
+					"y" : 156, 
+					"z" : 0					
+				},
+				"dwellingLvl4" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw4",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw4_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw4_border",
+					"x" : 282, 
+					"y" : 116,   
+					"z" : 1
+				},
+				"dwellingLvl5" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw5",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw5_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw5_border",
+					"x" : 215,
+					"y" : 207,
+					"z" : 2
+				},
+				"dwellingLvl6" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw6",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw6_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw6_border",
+					"x" : 397, 
+					"y" : 156, 
+					"z" : 1
+				},
+				"dwellingLvl7" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw7",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw7_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw7_border",
+					"x" : 0, 
+					"y" : 207,   
+					"z" : 3					
+				},
+				
+				"dwellingUpLvl1" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw1up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw1_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw1_up_border",
+					"x" : 720, 
+					"y" : 90,  
+					"z" : 0
+				},
+				"dwellingUpLvl2" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw2up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw2_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw2_up_border",
+					"x" : 365, 
+					"y" : 0, 
+					"z" : 0
+				},
+				"dwellingUpLvl3" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw3up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw3_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw3_up_border",
+					"x" : 552,   
+					"y" : 156, 
+					"z" : 0
+				},
+				"dwellingUpLvl4" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw4up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw4_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw4_up_border",
+					"x" : 282, 
+					"y" : 116,   
+					"z" : 1
+					
+				},
+				"dwellingUpLvl5" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw5up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw5_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw5_up_border",
+					"x" : 215,
+					"y" : 207,
+					"z" : 2
+				},
+				"dwellingUpLvl6" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw6up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw6_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw6_up_border",
+					"x" : 397, 
+					"y" : 156, 
+					"z" : 1
+				},
+				"dwellingUpLvl7" :
+				{
+					"animation" : "naga/town-screen/buildings/nagaDw7up",
+					"area" : "naga/town-screen/buildings-area/town_screen_dw7_up_area",
+					"border" : "naga/town-screen/buildings-border/town_screen_dw7_up_border",
+					"x" : 0, 
+					"y" : 207,   
+					"z" : 3
+				}
+			},
+		"tavernVideo" : "TAVERN.BIK",
+		"townBackground" : "naga/town-screen/background.bmp",
+		"hallSlots" : [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle"],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "special1" ]
+				],
+				[ 
+					
+					[ "special2", "special3" ],
+			    		[ "horde2", "horde2Upgr" ],
+					[ "special4"]
+				],
+				[
+					[ "dwellingLvl1", "dwellingUpLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3", "dwellingUpLvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ]
+				]
+			]
+		}
+	}
+}
