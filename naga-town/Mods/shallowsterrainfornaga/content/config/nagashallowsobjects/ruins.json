@@ -4,10 +4,10 @@
 		"handler" : "static",
 		"types" : {
 			"sunkenbuilding" : {
-				//"rmg": {
-				//	"zoneLimit": 3,
-				//	"value": 30,
-				//	"rarity": 30
+				//"rmg" : {
+				//	"zoneLimit" : 3,
+				//	"value" : 30,
+				//	"rarity" : 30
 				//},
 				"templates" : {
 					"nagaxHsRuin01" : {

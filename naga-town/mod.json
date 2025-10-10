@@ -8,7 +8,10 @@
 	"changelog" : {
 		"0.7" : [
 			"Initial release"
-		]
+		],
+		"1.0.2" : [
+			"Update for vcmi-1.7 format"
+		]		
 	},
 	"compatibility" : {
 		"min" : "1.7.0"

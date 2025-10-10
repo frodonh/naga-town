@@ -16,7 +16,8 @@
 							"VA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw1.def"
 			},
 			"nagalv2" : {
 				"name" : "珊瑚飞礁",
@@ -33,7 +34,8 @@
 							"VA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw2.def"
 			},
 			"nagalv3" : {
 				"name" : "潜虬井",
@@ -50,7 +52,8 @@
 							"VA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw3.def"
 			},
 			"nagalv4" : {
 				"name" : "潮汐神庙",
@@ -67,7 +70,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw4.def"
 			},
 			"nagalv5" : {
 				"name" : "娜迦圣坛",
@@ -85,7 +89,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw5.def"
 			},
 			"nagalv6" : {
 				"name" : "潮海地洞",
@@ -103,7 +108,8 @@
 							"BA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw6.def"
 			},
 			"nagalv7" : {
 				"name" : "浓雾海渊",
@@ -121,7 +127,8 @@
 							"BA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "naga/icons/flagports/dw7.def"
 			}
 		}
 	}

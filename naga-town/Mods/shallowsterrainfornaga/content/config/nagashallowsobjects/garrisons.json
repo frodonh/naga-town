@@ -2,10 +2,10 @@
 	"core:garrisonHorizontal" : {
 		"types" : {
 			"object" : {
-				//"rmg": {
-				//	"zoneLimit": 2,
-				//	"value": 1000,
-				//	"rarity": 80
+				//"rmg" : {
+				//	"zoneLimit" : 2,
+				//	"value" : 1000,
+				//	"rarity" : 80
 				//},
 				"templates" : {
 					"nagaxFALF0232" : {
@@ -31,10 +31,10 @@
 	"core:garrisonVertical" : {
 		"types" : {
 			"object" : {
-				//"rmg": {
-				//	"zoneLimit": 1,
-				//	"value": 1000,
-				//	"rarity": 80
+				//"rmg" : {
+				//	"zoneLimit" : 1,
+				//	"value" : 1000,
+				//	"rarity" : 80
 				//},
 				"templates" : {
 					"nagaxFALF0233" : {
