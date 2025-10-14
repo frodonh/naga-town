@@ -22,7 +22,7 @@
 			"cast" : "SUMNELM.wav"
 		},
 		"graphics" : {
-			"iconEffect" : "naga/spells/nagalv4smspell4.bmp"
+			"iconEffect" : "naga/spells/nagalv4smspell4"
 		},
 		"levels" : {
 			"base" : {

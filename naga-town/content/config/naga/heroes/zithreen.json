@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Zithreen/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Zithreen/spec-big.bmp",
-			"large" : "naga/heroes/Zithreen/zithreen-big.bmp",
-			"small" : "naga/heroes/Zithreen/zithreen-small.bmp"
+			"specialtySmall" : "naga/heroes/Zithreen/spec-small",
+			"specialtyLarge" : "naga/heroes/Zithreen/spec-big",
+			"large" : "naga/heroes/Zithreen/zithreen-big",
+			"small" : "naga/heroes/Zithreen/zithreen-small"
 		},
 		"spellbook" : [
 			"scuttleBoat"

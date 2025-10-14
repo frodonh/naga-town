@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Karathress/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Karathress/spec-big.bmp",
-			"large" : "naga/heroes/Karathress/karathress-big.bmp",
-			"small" : "naga/heroes/Karathress/karathress-small.bmp"
+			"specialtySmall" : "naga/heroes/Karathress/spec-small",
+			"specialtyLarge" : "naga/heroes/Karathress/spec-big",
+			"large" : "naga/heroes/Karathress/karathress-big",
+			"small" : "naga/heroes/Karathress/karathress-small"
 		},
 		"army" : [
 			{

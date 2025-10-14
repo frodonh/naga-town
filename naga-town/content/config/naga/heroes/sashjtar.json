@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Sashjtar/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Sashjtar/spec-big.bmp",
-			"large" : "naga/heroes/Sashjtar/sashjtar-big.bmp",
-			"small" : "naga/heroes/Sashjtar/sashjtar-small.bmp"
+			"specialtySmall" : "naga/heroes/Sashjtar/spec-small",
+			"specialtyLarge" : "naga/heroes/Sashjtar/spec-big",
+			"large" : "naga/heroes/Sashjtar/sashjtar-big",
+			"small" : "naga/heroes/Sashjtar/sashjtar-small"
 		},
 		"spellbook" : [
 			"summonBoat"

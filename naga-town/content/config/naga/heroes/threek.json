@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Threek/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Threek/spec-big.bmp",
-			"large" : "naga/heroes/Threek/Threek-big.bmp",
-			"small" : "naga/heroes/Threek/Threek-small.bmp"
+			"specialtySmall" : "naga/heroes/Threek/spec-small",
+			"specialtyLarge" : "naga/heroes/Threek/spec-big",
+			"large" : "naga/heroes/Threek/Threek-big",
+			"small" : "naga/heroes/Threek/Threek-small"
 		},
 		"army" : [
 			{

@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Nazjar/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Nazjar/spec-big.bmp",
-			"large" : "naga/heroes/Nazjar/nazjar-big.bmp",
-			"small" : "naga/heroes/Nazjar/nazjar-small.bmp"
+			"specialtySmall" : "naga/heroes/Nazjar/spec-small",
+			"specialtyLarge" : "naga/heroes/Nazjar/spec-big",
+			"large" : "naga/heroes/Nazjar/nazjar-big",
+			"small" : "naga/heroes/Nazjar/nazjar-small"
 		},
 		"spellbook" : [
 			"cure"

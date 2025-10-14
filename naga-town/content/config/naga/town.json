@@ -3,8 +3,8 @@
 		"alignment" : "neutral",
 		"boat" : "boatFortress",
 		"creatureBackground" : {
-			"120px" : "naga/creature-bg-120px.bmp",
-			"130px" : "naga/creature-bg-130px.bmp"
+			"120px" : "naga/creature-bg-120px",
+			"130px" : "naga/creature-bg-130px"
 		},
 		"name" : "娜迦",
 		"nativeTerrain" : "grass",
@@ -767,7 +767,7 @@
 					"nagalv7up"
 				]
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE",
 			"guildSpells" : {
 				"bless" : 5,
 				"bloodlust" : 0,
@@ -834,8 +834,8 @@
 				"sacrifice" : 0,
 				"waterElemental" : 15
 			},
-			"guildWindow" : "naga/town-screen/mage-guild.bmp",
-			"hallBackground" : "naga/town-screen/TPTHBKFC.bmp",
+			"guildWindow" : "naga/town-screen/mage-guild",
+			"hallBackground" : "naga/town-screen/TPTHBKFC",
 			"horde" : [
 				7,
 				1
@@ -844,22 +844,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "naga/icons/hall-small.bmp",
-						"large" : "naga/icons/hall-big.bmp"
+						"small" : "naga/icons/hall-small",
+						"large" : "naga/icons/hall-big"
 					},
 					"built" : {
-						"small" : "naga/icons/hall-builded-small.bmp",
-						"large" : "naga/icons/hall-builded-big.bmp"
+						"small" : "naga/icons/hall-builded-small",
+						"large" : "naga/icons/hall-builded-big"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "naga/icons/fort-small.bmp",
-						"large" : "naga/icons/fort-big.bmp"
+						"small" : "naga/icons/fort-small",
+						"large" : "naga/icons/fort-big"
 					},
 					"built" : {
-						"small" : "naga/icons/fort-builded-small.bmp",
-						"large" : "naga/icons/fort-builded-big.bmp"
+						"small" : "naga/icons/fort-builded-small",
+						"large" : "naga/icons/fort-builded-big"
 					}
 				}
 			},
@@ -1346,7 +1346,7 @@
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "naga/town-screen/background.bmp",
+			"townBackground" : "naga/town-screen/background",
 			"hallSlots" : [
 				[
 					[

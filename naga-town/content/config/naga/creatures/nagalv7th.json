@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/DragonTurtle.def",
 			"map" : "naga/map/creatures/mapDragonTurtle.def",
-			"iconSmall" : "naga/iconsSmall/creatures/DragonTurtle.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/DragonTurtle.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/DragonTurtle",
+			"iconLarge" : "naga/iconsBig/creatures/DragonTurtle",
 			"timeBetweenFidgets" : 1,
 			"missile" : {
 				"projectile" : "PCYCLBX.DEF",

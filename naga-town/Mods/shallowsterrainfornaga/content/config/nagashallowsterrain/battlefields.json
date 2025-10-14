@@ -1,23 +1,23 @@
 {
 	"nagashallows" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy"
 	},
 	"nagashallows2" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy2.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy2"
 	},
 	"nagashallows3" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy3.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy3"
 	},
 	"nagashallows4" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy4.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy4"
 	},
 	"nagashallows5" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy5.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy5"
 	},
 	"nagashallows6" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy6.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy6"
 	},
 	"nagashallows7" : {
-		"graphics" : "nagashallowsterrain/nagashallowsbgy7.bmp"
+		"graphics" : "nagashallowsterrain/nagashallowsbgy7"
 	}
 }

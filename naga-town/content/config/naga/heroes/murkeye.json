@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/MurkEye/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/MurkEye/spec-big.bmp",
-			"large" : "naga/heroes/MurkEye/murkeye-big.bmp",
-			"small" : "naga/heroes/MurkEye/murkeye-small.bmp"
+			"specialtySmall" : "naga/heroes/MurkEye/spec-small",
+			"specialtyLarge" : "naga/heroes/MurkEye/spec-big",
+			"large" : "naga/heroes/MurkEye/murkeye-big",
+			"small" : "naga/heroes/MurkEye/murkeye-small"
 		},
 		"army" : [
 			{

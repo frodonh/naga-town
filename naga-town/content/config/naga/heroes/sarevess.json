@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Sarevess/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Sarevess/spec-big.bmp",
-			"large" : "naga/heroes/Sarevess/sarevess-big.bmp",
-			"small" : "naga/heroes/Sarevess/sarevess-small.bmp"
+			"specialtySmall" : "naga/heroes/Sarevess/spec-small",
+			"specialtyLarge" : "naga/heroes/Sarevess/spec-big",
+			"large" : "naga/heroes/Sarevess/sarevess-big",
+			"small" : "naga/heroes/Sarevess/sarevess-small"
 		},
 		"spellbook" : [
 			"iceBolt"

@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Athissa/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Athissa/spec-big.bmp",
-			"large" : "naga/heroes/Athissa/athissa-big.bmp",
-			"small" : "naga/heroes/Athissa/athissa-small.bmp"
+			"specialtySmall" : "naga/heroes/Athissa/spec-small",
+			"specialtyLarge" : "naga/heroes/Athissa/spec-big",
+			"large" : "naga/heroes/Athissa/athissa-big",
+			"small" : "naga/heroes/Athissa/athissa-small"
 		},
 		"spellbook" : [
 			"haste"

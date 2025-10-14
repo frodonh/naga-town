@@ -22,8 +22,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/commander/nagaHyppoCommander.def",
 			"map" : "naga/map/creatures/AVWHyppoCommander.def",
-			"iconSmall" : "naga/iconsSmall/creatures/HyppoCommander.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/HyppoCommander.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/HyppoCommander",
+			"iconLarge" : "naga/iconsBig/creatures/HyppoCommander",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.5,

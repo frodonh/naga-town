@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Xiz/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Xiz/spec-big.bmp",
-			"large" : "naga/heroes/Xiz/Xiz-big.bmp",
-			"small" : "naga/heroes/Xiz/Xiz-small.bmp"
+			"specialtySmall" : "naga/heroes/Xiz/spec-small",
+			"specialtyLarge" : "naga/heroes/Xiz/spec-big",
+			"large" : "naga/heroes/Xiz/Xiz-big",
+			"small" : "naga/heroes/Xiz/Xiz-small"
 		},
 		"army" : [
 			{

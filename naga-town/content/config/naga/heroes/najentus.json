@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Najentus/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Najentus/spec-big.bmp",
-			"large" : "naga/heroes/Najentus/najentus-big.bmp",
-			"small" : "naga/heroes/Najentus/najentus-small.bmp"
+			"specialtySmall" : "naga/heroes/Najentus/spec-small",
+			"specialtyLarge" : "naga/heroes/Najentus/spec-big",
+			"large" : "naga/heroes/Najentus/najentus-big",
+			"small" : "naga/heroes/Najentus/najentus-small"
 		},
 		"army" : [
 			{

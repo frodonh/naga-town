@@ -33,8 +33,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagaspc1.def",
 			"map" : "naga/map/creatures/nagaspc1_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagaspc1_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagaspc1_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagaspc1_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagaspc1_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.28,

@@ -13,10 +13,10 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "naga/heroes/Megafin/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Megafin/spec-big.bmp",
-			"large" : "naga/heroes/Megafin/megafin-big.bmp",
-			"small" : "naga/heroes/Megafin/megafin-small.bmp"
+			"specialtySmall" : "naga/heroes/Megafin/spec-small",
+			"specialtyLarge" : "naga/heroes/Megafin/spec-big",
+			"large" : "naga/heroes/Megafin/megafin-big",
+			"small" : "naga/heroes/Megafin/megafin-small"
 		},
 		"army" : [
 			{

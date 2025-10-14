@@ -28,8 +28,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv5up.def",
 			"map" : "naga/map/creatures/nagalv5up_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagalv5up_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagalv5up_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv5up_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv5up_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.28,

@@ -13,10 +13,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Delacour/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Delacour/spec-big.bmp",
-			"large" : "naga/heroes/Delacour/delacour-big.bmp",
-			"small" : "naga/heroes/Delacour/delacour-small.bmp"
+			"specialtySmall" : "naga/heroes/Delacour/spec-small",
+			"specialtyLarge" : "naga/heroes/Delacour/spec-big",
+			"large" : "naga/heroes/Delacour/delacour-big",
+			"small" : "naga/heroes/Delacour/delacour-small"
 		},
 		"army" : [
 			{

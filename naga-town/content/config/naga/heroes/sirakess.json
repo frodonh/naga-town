@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Sirakess/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Sirakess/spec-big.bmp",
-			"large" : "naga/heroes/Sirakess/sirakess-big.bmp",
-			"small" : "naga/heroes/Sirakess/sirakess-small.bmp"
+			"specialtySmall" : "naga/heroes/Sirakess/spec-small",
+			"specialtyLarge" : "naga/heroes/Sirakess/spec-big",
+			"large" : "naga/heroes/Sirakess/sirakess-big",
+			"small" : "naga/heroes/Sirakess/sirakess-small"
 		},
 		"spellbook" : [
 			"haste"

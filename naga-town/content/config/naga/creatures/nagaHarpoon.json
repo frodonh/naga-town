@@ -20,8 +20,8 @@
 		"fightValue" : 3200,
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagadapao.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagaHarpoon.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagaHarpoon.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagaHarpoon",
+			"iconLarge" : "naga/iconsBig/creatures/nagaHarpoon",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

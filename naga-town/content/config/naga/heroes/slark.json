@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/slark/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/slark/spec-big.bmp",
-			"large" : "naga/heroes/slark/slark-big.bmp",
-			"small" : "naga/heroes/slark/slark-small.bmp"
+			"specialtySmall" : "naga/heroes/slark/spec-small",
+			"specialtyLarge" : "naga/heroes/slark/spec-big",
+			"large" : "naga/heroes/slark/slark-big",
+			"small" : "naga/heroes/slark/slark-small"
 		},
 		"army" : [
 			{

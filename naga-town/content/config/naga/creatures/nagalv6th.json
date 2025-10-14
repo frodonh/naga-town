@@ -28,8 +28,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv6th.def",
 			"map" : "naga/map/creatures/nagalv6th_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagalv6th_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagalv6th_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv6th_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv6th_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.28,

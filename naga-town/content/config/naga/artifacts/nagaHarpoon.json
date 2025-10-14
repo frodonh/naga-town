@@ -13,7 +13,7 @@
 			"event" : "通用战争机器娜迦鱼叉炮可让你攻击敌方的城墙。"
 		},
 		"graphics" : {
-			"image" : "naga/iconsSmall/creatures/artifacts/nagaHarpoon.bmp",
+			"image" : "naga/iconsSmall/creatures/artifacts/nagaHarpoon",
 			"map" : "naga/map/artifacts/avcnbksm.def",
 			"scenarioBonus" : "naga/icons/blank.png"
 		}

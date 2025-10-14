@@ -34,8 +34,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/SeaTurtle.def",
 			"map" : "naga/map/creatures/mapSeaTurtle.def",
-			"iconSmall" : "naga/iconsSmall/creatures/SeaTurtle.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/SeaTurtle.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/SeaTurtle",
+			"iconLarge" : "naga/iconsBig/creatures/SeaTurtle",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.28,

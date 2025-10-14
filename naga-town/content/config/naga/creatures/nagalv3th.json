@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv3th.def",
 			"map" : "naga/map/creatures/nagalv3th_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagalv3th_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagalv3th_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv3th_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv3th_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.05,

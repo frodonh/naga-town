@@ -26,7 +26,7 @@
 			"cast" : "DISGUISE"
 		},
 		"graphics" : {
-			"iconEffect" : "naga/spells/nagabless/nagablesse.bmp"
+			"iconEffect" : "naga/spells/nagabless/nagablesse"
 		},
 		"levels" : {
 			"base" : {

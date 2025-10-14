@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Nazjan/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Nazjan/spec-big.bmp",
-			"large" : "naga/heroes/Nazjan/nazjan-big.bmp",
-			"small" : "naga/heroes/Nazjan/nazjan-small.bmp"
+			"specialtySmall" : "naga/heroes/Nazjan/spec-small",
+			"specialtyLarge" : "naga/heroes/Nazjan/spec-big",
+			"large" : "naga/heroes/Nazjan/nazjan-big",
+			"small" : "naga/heroes/Nazjan/nazjan-small"
 		},
 		"army" : [
 			{

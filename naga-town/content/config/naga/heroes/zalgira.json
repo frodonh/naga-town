@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Zalgira/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Zalgira/spec-big.bmp",
-			"large" : "naga/heroes/Zalgira/zalgira-big.bmp",
-			"small" : "naga/heroes/Zalgira/zalgira-small.bmp"
+			"specialtySmall" : "naga/heroes/Zalgira/spec-small",
+			"specialtyLarge" : "naga/heroes/Zalgira/spec-big",
+			"large" : "naga/heroes/Zalgira/zalgira-big",
+			"small" : "naga/heroes/Zalgira/zalgira-small"
 		},
 		"spellbook" : [
 			"frostRing"

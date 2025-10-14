@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Morogrim/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Morogrim/spec-big.bmp",
-			"large" : "naga/heroes/Morogrim/morogrim-big.bmp",
-			"small" : "naga/heroes/Morogrim/morogrim-small.bmp"
+			"specialtySmall" : "naga/heroes/Morogrim/spec-small",
+			"specialtyLarge" : "naga/heroes/Morogrim/spec-big",
+			"large" : "naga/heroes/Morogrim/morogrim-big",
+			"small" : "naga/heroes/Morogrim/morogrim-small"
 		},
 		"army" : [
 			{

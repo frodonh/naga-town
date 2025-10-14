@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Vashj/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Vashj/spec-big.bmp",
-			"large" : "naga/heroes/Vashj/Vashj-big.bmp",
-			"small" : "naga/heroes/Vashj/Vashj-small.bmp"
+			"specialtySmall" : "naga/heroes/Vashj/spec-small",
+			"specialtyLarge" : "naga/heroes/Vashj/spec-big",
+			"large" : "naga/heroes/Vashj/Vashj-big",
+			"small" : "naga/heroes/Vashj/Vashj-small"
 		},
 		"spellbook" : [
 			"mirth"

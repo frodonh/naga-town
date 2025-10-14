@@ -31,8 +31,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv7up.def",
 			"map" : "naga/map/creatures/nagalv7up_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagalv7up_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagalv7up_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv7up_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv7up_big",
 			"timeBetweenFidgets" : 1,
 			"missile" : {
 				"projectile" : "PCYCLBX.DEF",

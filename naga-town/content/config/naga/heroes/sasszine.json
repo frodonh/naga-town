@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Sasszine/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Sasszine/spec-big.bmp",
-			"large" : "naga/heroes/Sasszine/sasszine-big.bmp",
-			"small" : "naga/heroes/Sasszine/sasszine-small.bmp"
+			"specialtySmall" : "naga/heroes/Sasszine/spec-small",
+			"specialtyLarge" : "naga/heroes/Sasszine/spec-big",
+			"large" : "naga/heroes/Sasszine/sasszine-big",
+			"small" : "naga/heroes/Sasszine/sasszine-small"
 		},
 		"spellbook" : [
 			"magicArrow"

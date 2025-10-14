@@ -29,8 +29,8 @@
 		"graphics" : {
 			"animation" : "naga/battle/creatures/nagalv4th.def",
 			"map" : "naga/map/creatures/nagalv4th_map.def",
-			"iconSmall" : "naga/iconsSmall/creatures/nagalv4th_small.bmp",
-			"iconLarge" : "naga/iconsBig/creatures/nagalv4th_big.bmp",
+			"iconSmall" : "naga/iconsSmall/creatures/nagalv4th_small",
+			"iconLarge" : "naga/iconsBig/creatures/nagalv4th_big",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

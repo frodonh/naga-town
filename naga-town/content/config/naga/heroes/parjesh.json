@@ -12,10 +12,10 @@
 			}
 		},
 		"images" : {
-			"specialtySmall" : "naga/heroes/Parjesh/spec-small.bmp",
-			"specialtyLarge" : "naga/heroes/Parjesh/spec-big.bmp",
-			"large" : "naga/heroes/Parjesh/parjesh-big.bmp",
-			"small" : "naga/heroes/Parjesh/parjesh-small.bmp"
+			"specialtySmall" : "naga/heroes/Parjesh/spec-small",
+			"specialtyLarge" : "naga/heroes/Parjesh/spec-big",
+			"large" : "naga/heroes/Parjesh/parjesh-big",
+			"small" : "naga/heroes/Parjesh/parjesh-small"
 		},
 		"army" : [
 			{
