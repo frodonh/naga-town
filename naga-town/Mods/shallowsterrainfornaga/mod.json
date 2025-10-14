@@ -15,7 +15,7 @@
 		],
 		"1.2" : [
 			"bugs fixed"
-		]		
+		]
 	},
 	"depends" : [
 		"naga-town"
